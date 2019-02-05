@@ -1,11 +1,49 @@
-<div class="col s12 m12 l6">
+
   <div class="row">
+
+    <div class="col S12 m6 l4">
+
+    		<?php
+
+    			$myargs = array (
+    				'pagination'             => false,
+    				'category_name'					=> '',
+    				'posts_per_page'         => 4,
+    				'ignore_sticky_posts'    => true,
+
+    			);
+    			// The Query
+    			$myquery = new WP_Query( $myargs );
+
+    			// The Loop
+    			while ( $myquery->have_posts() ) {
+
+    					$myquery->the_post();
+
+              if ( $myquery->current_post == 0 )  {
+              get_template_part( 'cardnews', 'destaque' );
+            } else {
+              get_template_part( 'cardnews', '' );
+
+
+            }
+
+
+
+    								wp_reset_postdata();
+
+    				}
+
+    			?>
+    	</div>
+
+    <div class="col s12 m6 l3">
     <div class="sl1der">
                 <?php
 
                   $myargs = array (
                     'pagination'             => false,
-                    'category_name'					 => 'governo',
+                    'category_name'					 => '',
                     'posts_per_page'         => 6,
                     'ignore_sticky_posts'    => true,
 
@@ -19,7 +57,7 @@
                       $myquery->the_post();
 
 
-                      echo ('<div class="col s12">');
+                      echo ('<div class="row">');
                       get_template_part( 'slider', '' );
                       echo ('</div>');
 
@@ -29,42 +67,31 @@
 
                   ?>
     </div>
+    <?php
 
-  </div>
+      $myargs = array (
+        'pagination'             => false,
+        'category_name'					=> '',
+        'posts_per_page'         => 4,
+        'ignore_sticky_posts'    => true,
 
+      );
+      // The Query
+      $myquery = new WP_Query( $myargs );
 
-  <?php
+      // The Loop
+      while ( $myquery->have_posts() ) {
 
-    $myargs = array (
-      'pagination'             => false,
-      'category_name'					=> 'economia',
-      'posts_per_page'         => 2,
-      'ignore_sticky_posts'    => true,
+          $myquery->the_post();
 
-    );
-    // The Query
-    $myquery = new WP_Query( $myargs );
+                get_template_part( 'cardnews', 'horizontal' );
 
-    // The Loop
-    while ( $myquery->have_posts() ) {
+            wp_reset_postdata();
 
-        $myquery->the_post();
+        }
 
-
-    echo ('<div>');
-        get_template_part( 'cardnews', 'hgrande' );
-        echo ('</div>');
-
-
-              wp_reset_postdata();
-
-      }
-
-    ?>
-
+      ?>
 </div>
-
-
 
 <div class="col S12 m6 l3">
 
@@ -72,7 +99,7 @@
 
 			$myargs = array (
 				'pagination'             => false,
-				'category_name'					=> 'saude',
+				'category_name'					=> '',
 				'posts_per_page'         => 4,
 				'ignore_sticky_posts'    => true,
 
@@ -102,40 +129,14 @@
 			?>
 	</div>
 
-	<div class="col S12 m6 l3">
+	<div class="col S12 m6 l2">
       <?php if ( dynamic_sidebar('vpublicidade') ) : else : endif; ?>
 
-		<?php
+        <?php if ( dynamic_sidebar('vpublicidade') ) : else : endif; ?>
 
-			$myargs = array (
-				'pagination'             => false,
-				'category_name'					=> 'educacao',
-				'posts_per_page'         => 4,
-				'ignore_sticky_posts'    => true,
-
-			);
-			// The Query
-			$myquery = new WP_Query( $myargs );
-
-			// The Loop
-			while ( $myquery->have_posts() ) {
-
-					$myquery->the_post();
-
-          	if ( $myquery->current_post == 0 )  {
-          	get_template_part( 'cardnews', 'destaque' );
-          } else {
-              	get_template_part( 'cardnews', 'horizontal' );
-
-          }
-
-						wp_reset_postdata();
-
-				}
-
-			?>
 	</div>
 
+    </div>
   <div class="row">
         <?php if ( dynamic_sidebar('publicidade') ) : else : endif; ?>
       </div>

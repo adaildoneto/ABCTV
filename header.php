@@ -25,25 +25,25 @@
 	<?php wp_head(); ?>
 </head>
 
-<body>
-	<div class="float-panel" data-top="0" data-scroll="200">
-		<nav class="nav-extended" style="background: linear-gradient(180deg, #78909c 0%, #37474f 100%);" >
+<body class="grey lighten-4">
 
-			<div class="container">
-				<div class="row">
+		<nav class="nav-extended white" >
+
+	<div class="float-panel" data-top="0" data-scroll="200">
+				<div class="row white">	 <div class="container">
 					<div class="col s1 m1 l1">
-	<a href="#" data-target="mobile-menu" class="sidenav-trigger show-on-large">	<i class="fas fa-bars"></i></a>
+	<a href="#" data-target="mobile-menu" class="sidenav-trigger show-on-large">	<i class="fas fa-bars blue-text"></i></a>
 
 
 					</div>
 
-						<div class="col s11 m9 l9">
+						<div class="col s10 m9 l9">
 
 							<?php if (has_custom_logo() ): ?>
 
-							 <div class="nav-wrapper">
+
 									<?php odin_the_custom_logo();?>
-							</div>
+
 							<?php else : ?>
 
 <div class="nav-wrapper center-align">
@@ -54,47 +54,36 @@
 
 </div>
 
-
-
-
-
-
 							<?php endif ?>
 
 						</div>
 
-							<div class="col m2 l2 right-align hide-on-small-only">
+							<div class="col s1 m2 l2 right-align hide-on-small-only">
 
-<a class="waves-effect waves-light btn-flat modal-trigger" href="#modal1">	<i class="fas fa-search white-text"></i></a>
-
-
-
+<a class="waves-effect waves-light btn-flat modal-trigger" href="#modal1">	<i class="fas fa-search blue-text"></i></a>
 
 							</div>
+	</div>		</div>
+		</div>
+	<div class="row blue darken-4">
+		<div class="container hide-on-med-and-down esconder">
+				 <?php
+											 wp_nav_menu( array(
+					 'theme_location'    => 'main-menu',
+					 'menu_id'           => 'primary-menu',
+					 'menu_class' 	    => 'left hide-on-med-and-down principal',
+					 'container'				=> 'ul',
+					 'container_class'	=>	'',
+					 'walker'		    =>	new Materialize_Walker_Nav_Menu(),
+				 ) );
+				 ?>
 
-
-					<div class="col s12 hide-on-med-and-down esconder">
-							 <?php
-														 wp_nav_menu( array(
-								 'theme_location'    => 'main-menu',
-								 'menu_id'           => 'primary-menu',
-								 'menu_class' 	    => 'left hide-on-med-and-down',
-								 'container'				=> 'ul',
-								 'container_class'	=>	'',
-								 'walker'		    =>	new Materialize_Walker_Nav_Menu(),
-							 ) );
-							 ?>
-
-					 </div>
-
-
-
-
+		 </div>
 	</div>
 
 	</nav>
 
-	</div>
+
 	<?php 	 wp_nav_menu( array(
 				 'menu'              => 'main-menu',
 				 'menu_id' 			=> 'mobile-menu',

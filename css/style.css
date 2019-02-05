@@ -339,6 +339,15 @@ hr.style-one {
       transition:all 0.5s;
   }
 
+
+.custom-logo {
+  margin: 10px auto auto 20px;
+}
+
+.principal {
+  text-transform: uppercase;
+  font-weight: 700;
+}
   /* Float Panel: class="float-panel fixed" */
 
 .fixed {
