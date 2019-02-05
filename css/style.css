@@ -68,8 +68,8 @@
   .news-slider {
       padding-right: 10%;
       font-weight: 600;
-      font-size: 2.1rem;
-      line-height: 2rem;
+      font-size: 1.5rem;
+      line-height: 1.6rem;
   }
   .news-hgrande {
       font-size: 1.8rem;
@@ -95,8 +95,8 @@
     .news-slider {
         padding-right: 10%;
         font-weight: 800;
-        font-size: 2.1rem;
-        line-height: 2.1rem;
+        font-size: 1.6rem;
+        line-height: 1.7rem;
     }
 
     .news-hgrande {
@@ -130,15 +130,15 @@
         width: 1180px;
       }
       .slider-post {
-        height: 320px;
+        height: 350px;
         width: 100%;
       }
 
       .news-slider {
           padding-right: 10%;
           font-weight: 800;
-          font-size: 2.1rem;
-          line-height: 2.1rem;
+          font-size: 1.6rem;
+          line-height: 1.7rem;
       }
 
       .news-hgrande {
@@ -218,11 +218,6 @@ h2.titulo-post {
 }
 
 .news-slider {
-    position: absolute;
-    bottom: 20px;
-    left: 10%;
-    z-index: 99;
-    padding-right: 10%;
     font-family: 'Roboto', sans-serif;
 }
 

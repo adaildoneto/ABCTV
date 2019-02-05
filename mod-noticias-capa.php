@@ -8,7 +8,7 @@
     			$myargs = array (
     				'pagination'             => false,
     				'category_name'					=> '',
-    				'posts_per_page'         => 4,
+    				'posts_per_page'         => 6,
     				'ignore_sticky_posts'    => true,
 
     			);
@@ -21,9 +21,9 @@
     					$myquery->the_post();
 
               if ( $myquery->current_post == 0 )  {
-              get_template_part( 'cardnews', 'destaque' );
+              get_template_part( 'cardnews', 'manchete' );
             } else {
-              get_template_part( 'cardnews', '' );
+              get_template_part( 'cardnews', 'hgrande' );
 
 
             }
@@ -44,7 +44,7 @@
                   $myargs = array (
                     'pagination'             => false,
                     'category_name'					 => '',
-                    'posts_per_page'         => 6,
+                    'posts_per_page'         => 3,
                     'ignore_sticky_posts'    => true,
 
                   );
@@ -72,7 +72,7 @@
       $myargs = array (
         'pagination'             => false,
         'category_name'					=> '',
-        'posts_per_page'         => 4,
+        'posts_per_page'         => 2,
         'ignore_sticky_posts'    => true,
 
       );
@@ -113,9 +113,9 @@
 					$myquery->the_post();
 
           if ( $myquery->current_post == 0 )  {
-          get_template_part( 'cardnews', 'destaque' );
-        } else {
           get_template_part( 'cardnews', '' );
+        } else {
+          get_template_part( 'cardnews', 'horizontal' );
 
 
         }
@@ -131,8 +131,6 @@
 
 	<div class="col S12 m6 l2">
       <?php if ( dynamic_sidebar('vpublicidade') ) : else : endif; ?>
-
-        <?php if ( dynamic_sidebar('vpublicidade') ) : else : endif; ?>
 
 	</div>
 
