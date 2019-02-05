@@ -43,7 +43,7 @@
 
                   $myargs = array (
                     'pagination'             => false,
-                    'category_name'					 => '',
+                    'category_name'					 => 'geral',
                     'posts_per_page'         => 3,
                     'ignore_sticky_posts'    => true,
 
