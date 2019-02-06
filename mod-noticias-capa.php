@@ -7,7 +7,7 @@
 
     			$myargs = array (
     				'pagination'             => false,
-    				'category_name'					=> 'saude',
+    				'category_name'					=> 'saude, policia, politica, meio ambiente',
     				'posts_per_page'         => 4,
     				'ignore_sticky_posts'    => true,
 
@@ -43,7 +43,7 @@
 
                   $myargs = array (
                     'pagination'             => false,
-                    'category_name'					 => 'geral',
+                    'category_name'					 => 'cultura, mundo, concurso',
                     'posts_per_page'         => 3,
                     'ignore_sticky_posts'    => true,
 
@@ -99,8 +99,8 @@
 
 			$myargs = array (
 				'pagination'             => false,
-				'category_name'					=> '',
-				'posts_per_page'         => 6,
+				'category_name'					=> 'meio ambiente, mundo',
+				'posts_per_page'         => 4,
 				'ignore_sticky_posts'    => true,
 
 			);
@@ -115,7 +115,7 @@
           if ( $myquery->current_post == 0 )  {
           get_template_part( 'cardnews', 'destaque' );
         } else {
-          get_template_part( 'cardnews', 'horizontal' );
+          get_template_part( 'cardnews', '' );
 
 
         }
