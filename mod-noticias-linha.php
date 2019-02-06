@@ -1,5 +1,5 @@
 <div class="row">
-  <div class="col s12 m12 l6">
+  <div class="col s12 m5 l5">
     <?php
 
       $myargs = array (
@@ -30,7 +30,7 @@
       ?>
   </div>
 
-<div class="col s12 m12 l6">
+<div class="col s12 m5 l5">
 
 
     <?php
@@ -60,6 +60,10 @@
 
       ?>
 
+</div>
+
+<div class="col s12 m2 l2">
+  	<?php if ( dynamic_sidebar('vpublicidade') ) : else : endif; ?>
 </div>
 
 </div>
