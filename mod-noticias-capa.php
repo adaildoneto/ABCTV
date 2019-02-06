@@ -113,7 +113,7 @@
 					$myquery->the_post();
 
           if ( $myquery->current_post == 0 )  {
-          get_template_part( 'cardnews', '' );
+          get_template_part( 'cardnews', 'destaque' );
         } else {
           get_template_part( 'cardnews', 'horizontal' );
 
