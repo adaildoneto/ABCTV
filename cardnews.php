@@ -4,9 +4,8 @@
         <div class="nocanto2">
           <?php $categories = get_the_category();
               if ( ! empty( $categories ) ) {
-                  echo '<span class="new badge blue-grey darken-5" data-badge-caption="'. esc_html( $categories[0]->name ) . '"></span>';
+                  echo '<span class="chip principalchip blue darken-5 white-text left">'. esc_html( $categories[0]->name ) . '</span>';
                   }?>
-
         </div>
         <div class="card-image">
                       <?php $image =  wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'cardnews' );?>

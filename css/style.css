@@ -171,6 +171,14 @@
   max-height: 460px;
 }
 
+.principalchip {
+  font-size: 10px!important;
+  margin: 0 10px!important;
+  height: 15px!important;
+  line-height: 15px!important;
+  padding: 0 10px!important;
+}
+
 .especial-container {
   position: absolute;
   bottom: 50px;

@@ -7,8 +7,8 @@
 
     			$myargs = array (
     				'pagination'             => false,
-    				'category_name'					=> '',
-    				'posts_per_page'         => 6,
+    				'category_name'					=> 'saude',
+    				'posts_per_page'         => 4,
     				'ignore_sticky_posts'    => true,
 
     			);
@@ -72,7 +72,7 @@
       $myargs = array (
         'pagination'             => false,
         'category_name'					=> '',
-        'posts_per_page'         => 2,
+        'posts_per_page'         => 3,
         'ignore_sticky_posts'    => true,
 
       );
@@ -100,7 +100,7 @@
 			$myargs = array (
 				'pagination'             => false,
 				'category_name'					=> '',
-				'posts_per_page'         => 4,
+				'posts_per_page'         => 6,
 				'ignore_sticky_posts'    => true,
 
 			);

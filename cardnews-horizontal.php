@@ -6,6 +6,13 @@
             <img class="responsive-img" src="<?php echo $image[0]; ?>" >
           </div>
               <div class="card-stacked">
+                <div class="">
+                  <?php $categories = get_the_category();
+                      if ( ! empty( $categories ) ) {
+                          echo '<span class="chip principalchip blue darken-5 white-text">'. esc_html( $categories[0]->name ) . '</span>';
+                          }?>
+
+                </div>
                 <div class="news-h grey-text text-darken-4">
                   <?php the_title();?>
                 </div>
