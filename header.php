@@ -65,8 +65,8 @@
 							</div>
 	</div>		</div>
 		</div>
-	<div class="row blue darken-4">
-		<div class="container hide-on-med-and-down esconder">
+	<div class="row blue darken-4 z-depth-2 hide-on-med-and-down esconder pracima">
+		<div class="container ">
 				 <?php
 											 wp_nav_menu( array(
 					 'theme_location'    => 'main-menu',

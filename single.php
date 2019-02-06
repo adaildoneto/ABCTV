@@ -6,7 +6,7 @@
  * @since 2.2.0
  */
 
-get_header('transparent'); ?>
+get_header(''); ?>
 
 					<?php
 						// Start the Loop.

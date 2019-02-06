@@ -8,9 +8,9 @@
   <div class="card-content">
 
     <a href="<?php the_Permalink()?>" title="<?php the_title();?>" >
-    <span class="news-slider blue-grey-text text-darken-3" >
+    <h1 class="blue-grey-text text-darken-3" >
       <?php the_title();?>
-    </span>  </a>
+    </h1>  </a>
 
   </div>
       <hr class="style-one">
