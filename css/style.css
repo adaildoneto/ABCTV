@@ -236,6 +236,11 @@ h2.titulo-post {
 
  .espaco {
    padding: 5%!important;
+   max-height: 80px;
+ }
+
+ .espacoh {
+   max-height: : 75px;
  }
 
 .news-hgrande {

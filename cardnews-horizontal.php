@@ -13,7 +13,7 @@
                           }?>
 
                 </div>
-                <div class="news-h grey-text text-darken-4">
+                <div class="news-h grey-text text-darken-4 espacoh">
                   <?php the_title();?>
                 </div>
               </div>
