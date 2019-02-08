@@ -67,16 +67,21 @@
 		</div>
 	<div class="row blue darken-4 z-depth-2 hide-on-med-and-down esconder pracima">
 		<div class="container ">
-				 <?php
-											 wp_nav_menu( array(
-					 'theme_location'    => 'main-menu',
-					 'menu_id'           => 'primary-menu',
-					 'menu_class' 	    => 'left hide-on-med-and-down principal',
-					 'container'				=> 'ul',
-					 'container_class'	=>	'',
-					 'walker'		    =>	new Materialize_Walker_Nav_Menu(),
-				 ) );
-				 ?>
+		<div class="col s12 m10 l10">
+			<?php
+										wp_nav_menu( array(
+				'theme_location'    => 'main-menu',
+				'menu_id'           => 'primary-menu',
+				'menu_class' 	    => 'left hide-on-med-and-down principal',
+				'container'				=> 'ul',
+				'container_class'	=>	'',
+				'walker'		    =>	new Materialize_Walker_Nav_Menu(),
+			) );
+			?>
+		</div>
+			<div class="col s12 m2 l2">
+				  <?php if ( dynamic_sidebar('modweather') ) : else : endif; ?>
+			</div>
 
 		 </div>
 	</div>
