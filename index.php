@@ -69,7 +69,7 @@ get_header(); ?>
 
 <div class="row grey" style="margin-top: -20px;">
 
-<?php include(TEMPLATEPATH.'/mod-noticias-capa3.php');?>
+<?php include(TEMPLATEPATH.'/mod-noticias-linha.php');?>
 </div>
 
 
@@ -79,7 +79,7 @@ get_header(); ?>
 <div class="row">
 
 
-<?php include(TEMPLATEPATH.'/mod-noticias-capa2.php');?>
+<?php include(TEMPLATEPATH.'/mod-noticias-linha.php');?>
 
 </div>
 
