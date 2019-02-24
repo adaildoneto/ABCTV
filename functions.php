@@ -598,6 +598,9 @@ function excerpt($limit) {
   return $excerpt;
 }
 
+// Enable the use of shortcodes in text widgets.
+add_filter( 'widget_text', 'do_shortcode' );
+
 //img-responsive para as imagens dentro do file_get_contents
 add_filter( 'the_content', 'wpse_add_img_post_class' );
 function wpse_add_img_post_class( $content ) {
