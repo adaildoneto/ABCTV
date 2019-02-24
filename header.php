@@ -40,15 +40,15 @@
 						<div class="col s10 m9 l9">
 
 							<?php if (has_custom_logo() ): ?>
-
+<div class="nav-wrapper center-align">
 
 									<?php odin_the_custom_logo();?>
-
+</div>
 							<?php else : ?>
 
 <div class="nav-wrapper center-align">
 
-	<a class="logomarca" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+	<a class="logomarca blue-text text-darken-4" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 			<i class="far fa-newspaper"></i>	<?php bloginfo( 'name' ); ?>
 	</a>
 
