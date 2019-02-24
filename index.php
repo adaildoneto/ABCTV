@@ -68,8 +68,10 @@ get_header(); ?>
 </div>
 
 <div class="row grey" style="margin-top: -20px;">
+<div class="container">
+	<?php include(TEMPLATEPATH.'/mod-noticias-linha.php');?>
+</div>
 
-<?php include(TEMPLATEPATH.'/mod-noticias-linha.php');?>
 </div>
 
 
@@ -78,9 +80,15 @@ get_header(); ?>
 </div>
 <div class="row">
 
+	<div class="container">
+		<?php include(TEMPLATEPATH.'/mod-noticias-linha.php');?>
+	</div>
+</div>
+<div class="row">
 
-<?php include(TEMPLATEPATH.'/mod-noticias-linha.php');?>
-
+	<div class="container">
+		<?php include(TEMPLATEPATH.'/mod-noticias-linha.php');?>
+	</div>
 </div>
 
 
