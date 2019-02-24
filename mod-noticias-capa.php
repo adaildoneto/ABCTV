@@ -132,7 +132,7 @@
 	</div>
 
 	<div class="col S12 m6 l2">
-  <?php echo do_shortcode("[wpc-weather id="159085" /]"); ?>
+  <?php echo do_shortcode('[wpc-weather id='159085' /]'); ?>
   <?php if ( dynamic_sidebar('vpublicidade') ) : else : endif; ?>
 	</div>
 
