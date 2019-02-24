@@ -132,7 +132,7 @@
 	</div>
 
 	<div class="col S12 m6 l2">
-      <?php if ( dynamic_sidebar('vpublicidade') ) : else : endif; ?>
+    <?php if(function_exists('absWeather')) { echo absWeather(); } ?> 
 
 	</div>
 
