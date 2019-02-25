@@ -24,7 +24,7 @@ get_header(); ?>
 	</div>
 
 </div>
-<div class="row grey darken-4"  style="padding: 20px;">
+<div class="row blue-grey darken-4"  style="padding: 20px;">
 	<div class="container">
 		<div class="center-align titulo">
 			<h5 class="white-text">Vídeos</h5>
@@ -48,8 +48,12 @@ get_header(); ?>
 <div class="divider">
 
 </div>
-<div class="row grey lighten-4">
+<div class="row grey lighten-5">
 	<div class="container">
+		<div class="center-align titulo blue-text text-darken-4">
+			<h4>Política</h4> <hr class="style-one">
+
+		</div>
 		<div class="row">
 			<?php include(TEMPLATEPATH.'/mod-noticias-linha.php');?>
 		</div>
@@ -57,38 +61,61 @@ get_header(); ?>
 	</div>
 </div>
 
-<div class="row blue-grey darken-1" style="padding: 20px;">
-	<div class="container">
-		<div class="center-align titulo white-text">
-			<h5>Política</h5> <hr class="style-one">
 
-		</div>
-
-	</div>
-</div>
-
-<div class="row grey" style="margin-top: -20px;">
+<div class="row grey lighten-4" style="margin-top: -20px;">
 <div class="container">
-	<?php include(TEMPLATEPATH.'/mod-noticias-linha.php');?>
-</div>
+	<div class="center-align titulo orange-text orange-darken-4">
+		<h4>Nacional</h4> <hr class="style-one">
 
-</div>
-
-
-<div class="divider">
-
-</div>
-<div class="row">
-
-	<div class="container">
+	</div>
+	<div class="row">
 		<?php include(TEMPLATEPATH.'/mod-noticias-linha.php');?>
 	</div>
-</div>
-<div class="row">
 
-	<div class="container">
+</div>
+
+</div>
+
+<div class="row grey lighten-3" style="margin-top: -20px;">
+<div class="container">
+	<div class="center-align titulo red-text red-darken-4">
+		<h4>Polícia</h4> <hr class="style-one">
+
+	</div>
+	<div class="row">
 		<?php include(TEMPLATEPATH.'/mod-noticias-linha.php');?>
 	</div>
+
+</div>
+
+</div>
+
+<div class="row grey lighten-2" style="margin-top: -20px;">
+<div class="container">
+	<div class="center-align titulo green-text green-darken-4">
+		<h4>Acre</h4> <hr class="style-one">
+
+	</div>
+	<div class="row">
+		<?php include(TEMPLATEPATH.'/mod-noticias-linha.php');?>
+	</div>
+
+</div>
+
+</div>
+
+<div class="row grey lighten-1" style="margin-top: -20px;">
+<div class="container">
+	<div class="center-align titulo purple-text purple-darken-4">
+		<h4>Esporte</h4> <hr class="style-one">
+
+	</div>
+	<div class="row">
+		<?php include(TEMPLATEPATH.'/mod-noticias-linha.php');?>
+	</div>
+
+</div>
+
 </div>
 
 

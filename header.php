@@ -25,7 +25,7 @@
 	<?php wp_head(); ?>
 </head>
 
-<body class="grey lighten-4">
+<body class="blue-grey lighten-5">
 
 		<nav class="nav-extended white" >
 

@@ -30,7 +30,7 @@
       ?>
   </div>
 
-<div class="col s12 m5 l5">
+<div class="col s12 m4 l4">
 
 
     <?php
@@ -62,7 +62,7 @@
 
 </div>
 
-<div class="col s12 m2 l2">
+<div class="col s12 m3 l3">
   	<?php if ( dynamic_sidebar('vpublicidade') ) : else : endif; ?>
 </div>
 
