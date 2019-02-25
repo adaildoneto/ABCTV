@@ -45,10 +45,7 @@ get_header(); ?>
 
 </div>
 
-<div class="divider">
-
-</div>
-<div class="row grey lighten-5">
+<div class="row grey lighten-5" style="margin-top: -20px;">
 	<div class="container">
 		<div class="center-align titulo blue-text text-darken-4">
 			<h4>Política</h4> <hr class="style-one">
@@ -76,7 +73,7 @@ get_header(); ?>
 
 </div>
 
-<div class="row grey lighten-3" style="margin-top: -20px;">
+<div class="row grey lighten-5" style="margin-top: -20px;">
 <div class="container">
 	<div class="center-align titulo red-text red-darken-4">
 		<h4>Polícia</h4> <hr class="style-one">
@@ -90,7 +87,7 @@ get_header(); ?>
 
 </div>
 
-<div class="row grey lighten-2" style="margin-top: -20px;">
+<div class="row grey lighten-4" style="margin-top: -20px;">
 <div class="container">
 	<div class="center-align titulo green-text green-darken-4">
 		<h4>Acre</h4> <hr class="style-one">
@@ -104,7 +101,7 @@ get_header(); ?>
 
 </div>
 
-<div class="row grey lighten-1" style="margin-top: -20px;">
+<div class="row grey lighten-5" style="margin-top: -20px;">
 <div class="container">
 	<div class="center-align titulo purple-text purple-darken-4">
 		<h4>Esporte</h4> <hr class="style-one">
