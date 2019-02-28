@@ -63,77 +63,7 @@
       ?>
 </div>
 
-<div class="col S12 m6 l4">
 
-    <?php
-
-      $myargs = array (
-        'pagination'             => false,
-        'category_name'					=> 'saude, policia, politica, meio ambiente',
-        'posts_per_page'         => 4,
-        'ignore_sticky_posts'    => true,
-
-      );
-      // The Query
-      $myquery = new WP_Query( $myargs );
-
-      // The Loop
-      while ( $myquery->have_posts() ) {
-
-          $myquery->the_post();
-
-          if ( $myquery->current_post == 0 )  {
-          get_template_part( 'cardnews', 'hgrande' );
-        } else {
-          get_template_part( 'cardnews', 'hgrande' );
-
-
-        }
-
-
-
-                wp_reset_postdata();
-
-        }
-
-      ?>
-  </div>
-
-<div class="col S12 m6 l3">
-
-		<?php
-
-			$myargs = array (
-				'pagination'             => false,
-				'category_name'					=> 'meio ambiente, mundo',
-				'posts_per_page'         => 4,
-				'ignore_sticky_posts'    => true,
-
-			);
-			// The Query
-			$myquery = new WP_Query( $myargs );
-
-			// The Loop
-			while ( $myquery->have_posts() ) {
-
-					$myquery->the_post();
-
-          if ( $myquery->current_post == 0 )  {
-          get_template_part( 'cardnews', 'destaque' );
-        } else {
-          get_template_part( 'cardnews', '' );
-
-
-        }
-
-
-
-								wp_reset_postdata();
-
-				}
-
-			?>
-	</div>
 
 	<div class="col S12 m6 l2">
 
@@ -141,6 +71,78 @@
     echo do_shortcode('[wpc-weather id="159085"]');
      if ( dynamic_sidebar('vpublicidade') ) : else : endif; ?>
 	</div>
+
+  <div class="col S12 m6 l4">
+
+      <?php
+
+        $myargs = array (
+          'pagination'             => false,
+          'category_name'					=> 'saude, policia, politica, meio ambiente',
+          'posts_per_page'         => 3,
+          'ignore_sticky_posts'    => true,
+
+        );
+        // The Query
+        $myquery = new WP_Query( $myargs );
+
+        // The Loop
+        while ( $myquery->have_posts() ) {
+
+            $myquery->the_post();
+
+            if ( $myquery->current_post == 0 )  {
+            get_template_part( 'cardnews', 'hgrande' );
+          } else {
+            get_template_part( 'cardnews', 'hgrande' );
+
+
+          }
+
+
+
+                  wp_reset_postdata();
+
+          }
+
+        ?>
+    </div>
+
+  <div class="col S12 m6 l3">
+
+  		<?php
+
+  			$myargs = array (
+  				'pagination'             => false,
+  				'category_name'					=> 'meio ambiente, mundo',
+  				'posts_per_page'         => 4,
+  				'ignore_sticky_posts'    => true,
+
+  			);
+  			// The Query
+  			$myquery = new WP_Query( $myargs );
+
+  			// The Loop
+  			while ( $myquery->have_posts() ) {
+
+  					$myquery->the_post();
+
+            if ( $myquery->current_post == 0 )  {
+            get_template_part( 'cardnews', 'destaque' );
+          } else {
+            get_template_part( 'cardnews', '' );
+
+
+          }
+
+
+
+  								wp_reset_postdata();
+
+  				}
+
+  			?>
+  	</div>
 
     </div>
   <div class="row">
