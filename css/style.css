@@ -2,7 +2,7 @@
 @media (min-width : 320px) and (max-width: 480px){
 /* Styles */
     .container  {
-      width: 310px;
+      width: 90%;
     }
 
     .slider-post {
