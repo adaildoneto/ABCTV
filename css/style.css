@@ -165,7 +165,7 @@
       }
 
       .slider-post-topo {
-        height: 650px;
+        height: 625px;
         width: 100%;
       }
 
@@ -465,4 +465,8 @@ a img.aligncenter {
 
 b, strong {
         font-weight: bold;
+}
+
+#responsive_headline {
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.60);
 }
