@@ -35,7 +35,7 @@
 
 
 
-    <div class="col s12 m6 l3 push-l4">
+    <div class="col s12 m6 l3">
 
     <?php
 
@@ -63,7 +63,7 @@
       ?>
 </div>
 
-<div class="col S12 m6 l4 pull-l3">
+<div class="col S12 m6 l4">
 
     <?php
 
