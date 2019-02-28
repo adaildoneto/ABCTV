@@ -11,9 +11,9 @@
               }?>
     </div>
     <a href="<?php the_Permalink()?>" title="<?php the_title();?>" >
-    <span class="news-slider blue-grey-text text-darken-3" >
+    <p class="news-slider blue-grey-text text-darken-3" >
       <?php the_title();?>
-    </span>  </a>
+    </p>  </a>
 
   </div>
 
