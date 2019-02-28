@@ -46,6 +46,10 @@ jQuery(document).ready(function($) {
   $('#post').find('img').addClass('responsive-img');
   $('#politica').find('.cor').addClass('blue darken-4');
   $('#acre').find('.cor').addClass('green darken-4');
+  $('#noticias').find('.cor').addClass('blue-grey darken-4');
+  $('#nacional').find('.cor').addClass('orange darken-4');
+  $('#policia').find('.cor').addClass('red darken-4');
+  $('#esporte').find('.cor').addClass('purple darken-4');
   $('.wp_pagination').find('ul').addClass('pagination');
   $('.pagination').find('li').addClass('waves-effect');
   $('.current').addClass('btn-flat orange white-text');

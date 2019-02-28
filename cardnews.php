@@ -4,7 +4,7 @@
         <div class="nocanto2">
           <?php $categories = get_the_category();
               if ( ! empty( $categories ) ) {
-                  echo '<span class="chip principalchip blue darken-5 white-text left">'. esc_html( $categories[0]->name ) . '</span>';
+                  echo '<span class="chip principalchip cor white-text left">'. esc_html( $categories[0]->name ) . '</span>';
                   }?>
         </div>
         <div class="card-image">
