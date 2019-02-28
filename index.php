@@ -15,8 +15,12 @@
 
 get_header(); ?>
 
+<div id="noticias" class="row">
+	<div class="container">
+			<?php include(TEMPLATEPATH.'/mod-noticias-topo.php');?>
+	</div>
 
-
+</div>
 
 <div id="noticias" class="row">
 	<div class="container">
