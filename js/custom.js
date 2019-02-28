@@ -69,7 +69,7 @@ jQuery(document).ready(function($) {
   $("iframe[src*='web.facebook']").parent().fitVids();
   $('.grid').masonry({
     // use outer width of grid-sizer for columnWidth
-    columnWidth: '.grid-sizer',
+    columnWidth: '',
     // do not use .grid-sizer in layout
     itemSelector: '.grid-item',
     percentPosition: true
