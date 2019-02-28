@@ -1,7 +1,7 @@
 
   <div id="grid" class="row">
 
-        <div class="col s12 m6 l7 grid-item">
+        <div class="col s12 m6 l7">
           <div class="sl1der">
                       <?php
 
@@ -140,7 +140,7 @@
 
 
 
-      <div class="col S12 m6 l2 grid-item">
+      <div class="col S12 m6 l2">
 
         <?php
         echo do_shortcode('[wpc-weather id="159085"]');
