@@ -1,8 +1,8 @@
 
   <div class="row grid">
-      <div class="grid-item">
-        <div class="col s12 m6 l7">
-          <div class="sl1der grid-sizer">
+
+        <div class="col s12 m6 l7 grid-item">
+          <div class="sl1der">
                       <?php
 
                         $myargs = array (
@@ -32,12 +32,12 @@
                         ?>
           </div>
         </div>
-      </div>
 
 
 
-    <div class="grid-item">
-              <div class="col s12 m6 l3">
+
+
+              <div class="col s12 m6 l3 grid-item">
 
               <?php
 
@@ -64,19 +64,17 @@
 
                 ?>
             </div>
-    </div>
 
-    <div class="grid-item">
-      <div class="col S12 m6 l2">
+
+      <div class="col S12 m6 l2 grid-item">
 
         <?php
         echo do_shortcode('[wpc-weather id="159085"]');
          if ( dynamic_sidebar('vpublicidade') ) : else : endif; ?>
       </div>
-    </div>
 
-      <div class="grid-item">
-        <div class="col S12 m6 l4">
+
+        <div class="col S12 m6 l4 grid-item">
 
             <?php
 
@@ -111,10 +109,9 @@
 
               ?>
           </div>
-      </div>
 
-<div class="grid-item">
-  <div class="col S12 m6 l3">
+
+  <div class="col S12 m6 l3 grid-item">
 
       <?php
 
@@ -150,7 +147,6 @@
         ?>
     </div>
 
-</div>
 
     </div>
   <div class="row">
