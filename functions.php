@@ -485,6 +485,7 @@ function odin_enqueue_scripts() {
 	wp_enqueue_script ('jQuery1.11', $template_url . '/js/jquery-1.11.0.min.js');
 	wp_enqueue_script ('jQuery-Migrate', $template_url . '/js/jquery-migrate-1.2.1.min.js');
 	wp_enqueue_script ('slickJS', $template_url . '/slick/slick.min.js');
+		wp_enqueue_script ('masonrykJS', $template_url . '/js/masonry.pkgd.min.js');
 	//Carregando MaterializeJS
 	wp_enqueue_script ('MaterializeJS', $template_url . '/js/materialize.js');
 		wp_enqueue_script ('FitVids', $template_url . '/js/jquery.fitvids.js');

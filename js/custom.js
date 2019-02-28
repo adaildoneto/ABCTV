@@ -67,6 +67,14 @@ jQuery(document).ready(function($) {
   $(".collapsible").collapsible();
   $("iframe[src*='youtube']").parent().fitVids();
   $("iframe[src*='web.facebook']").parent().fitVids();
+  $('.grid').masonry({
+    // use outer width of grid-sizer for columnWidth
+    columnWidth: '.grid-sizer',
+    // do not use .grid-sizer in layout
+    itemSelector: '.grid-item',
+    percentPosition: true
+
+});
 });
 
 jQuery(document).ready(function($) {
