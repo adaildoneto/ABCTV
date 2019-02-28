@@ -11,12 +11,12 @@
 get_header(); ?>
 
 <div class="row">
-		<div class="container">
+		<div id="noticias" class="container">
 			<?php if ( have_posts() ) : ?>
 
 				<header class="page-header">
 				<?php
-					the_archive_title( '<h1 class="page-title">', '</h1>' );
+					the_archive_title( '<h4 class="page-title">', '</h4>' );
 					the_archive_description( '<div class="taxonomy-description">', '</div>' );
 				?>
 				</header><!-- .page-header -->
@@ -35,7 +35,9 @@ get_header(); ?>
 						endwhile;
 
 						// Page navigation.
-						odin_paging_nav();
+						echo ('<div class="s12 center-align">');
+				wp_pagination();
+						echo ('</div>');
 
 					else :
 						// If no content, include the "No posts found" template.

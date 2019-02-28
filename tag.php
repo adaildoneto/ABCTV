@@ -32,20 +32,24 @@ get_header(); ?>
 							 * use this in a child theme, then include a file called content-___.php
 							 * (where ___ is the post format) and that will be used instead.
 							 */
-							get_template_part( 'content', get_post_format() );
+							 echo ('<div class="col s12 m6 l3">');
+ 					 get_template_part( 'cardnews', '' );
+ 									 echo ('</div>');
+ 					 endwhile;
 
-						endwhile;
+ 					 // Page navigation.
+ 					 echo ('<div class="s12 center-align">');
+ 			 wp_pagination();
+ 					 echo ('</div>');
 
-						// Page navigation.
-						odin_paging_nav();
+ 				 else :
+ 					 // If no content, include the "No posts found" template.
 
-					else :
-						// If no content, include the "No posts found" template.
-						get_template_part( 'content', 'none' );
+ 					 get_template_part( 'content', 'none' );
 
-				endif;
+ 			 endif;
 			?>
-		
+
 	</main><!-- #content -->
 
 <?php

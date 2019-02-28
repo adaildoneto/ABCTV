@@ -1,6 +1,6 @@
 
     <a href="<?php the_Permalink()?>" title="<?php the_title();?>" >
-      <div class="card transparent z-depth-0 newscard">
+      <div class="card white z-depth-0 newscard">
         <div class="nocanto2">
           <?php $categories = get_the_category();
               if ( ! empty( $categories ) ) {

@@ -2,7 +2,7 @@
   <a href="<?php the_Permalink()?>" title="<?php the_title();?>" >
 
 
-          <div class="card horizontal grey lighten-4 hnewscard z-depth-0">
+          <div class="card horizontal white hnewscard z-depth-0">
 
             <div class="card-image">
 
@@ -13,7 +13,7 @@
                   <div class="nocanto 1" style="margin-top: -20px;">
                     <?php $categories = get_the_category();
                         if ( ! empty( $categories ) ) {
-                            echo '<span class="chip principalchip blue darken-5 white-text">'. esc_html( $categories[0]->name ) . '</span>';
+                            echo '<span class="chip principalchip cor white-text">'. esc_html( $categories[0]->name ) . '</span>';
                             }?>
 
                   </div>
