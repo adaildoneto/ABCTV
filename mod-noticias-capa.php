@@ -39,7 +39,7 @@
             $myargs = array (
               'pagination'             => false,
               'category_name'					=> '',
-              'posts_per_page'         => 2,
+              'posts_per_page'         => 3,
               'ignore_sticky_posts'    => true,
 
             );
@@ -67,7 +67,7 @@
                 $myargs = array (
                   'pagination'             => false,
                   'category_name'					=> 'saude, policia, politica, meio ambiente',
-                  'posts_per_page'         => 3,
+                  'posts_per_page'         => 0,
                   'ignore_sticky_posts'    => true,
 
                 );
@@ -104,7 +104,7 @@
             $myargs = array (
               'pagination'             => false,
               'category_name'					=> '',
-              'posts_per_page'         => 3,
+              'posts_per_page'         => 0,
               'ignore_sticky_posts'    => true,
 
             );

@@ -17,7 +17,9 @@
                   <?php the_title();?>
 
                   </div>
-
+                  <div class="news-text blue-grey-text text-darken-4 hide-on-med-and-down">
+                                  <?php echo excerpt('30'); ?>
+                                  </div>
               </div>
             </div>
 </a>
