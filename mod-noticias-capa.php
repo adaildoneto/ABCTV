@@ -1,5 +1,5 @@
 
-  <div class="row grid">
+  <div id="grid" class="row">
 
         <div class="col s12 m6 l7 grid-item">
           <div class="sl1der">

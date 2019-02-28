@@ -67,7 +67,7 @@ jQuery(document).ready(function($) {
   $(".collapsible").collapsible();
   $("iframe[src*='youtube']").parent().fitVids();
   $("iframe[src*='web.facebook']").parent().fitVids();
-  $('.grid').masonry({
+  $('#grid').masonry({
     // use outer width of grid-sizer for columnWidth
     columnWidth: '',
     // do not use .grid-sizer in layout
