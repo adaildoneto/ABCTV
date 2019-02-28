@@ -20,7 +20,7 @@
 
 
 
-          get_template_part( 'slider', '' );
+          get_template_part( 'slider', 'topo' );
 
 
                 wp_reset_postdata();
@@ -51,7 +51,7 @@
           $myquery->the_post();
 
             echo ('<div class="col s12 ">');
-          get_template_part( 'cardnews', 'destaque' );
+          get_template_part( 'slider', 'topo2' );
               echo ('</div>')  ;
 
                 wp_reset_postdata();
