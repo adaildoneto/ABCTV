@@ -1,5 +1,5 @@
 
-  <div id="grid" class="row">
+  <div id="noticias" class="row">
 
         <div class="col s12 m6 l7">
           <div class="sl1der">
@@ -21,7 +21,7 @@
                             $myquery->the_post();
 
 
-                            echo ('<div class="col s12">');
+                            echo ('<div>');
                             get_template_part( 'slider', '' );
                             echo ('</div>');
 
