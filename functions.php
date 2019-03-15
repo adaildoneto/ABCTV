@@ -366,8 +366,8 @@ if ( ! function_exists( 'odin_setup_features' ) ) {
 		 *  @since Odin 2.2.10
 		 */
 		add_theme_support( 'custom-logo', array(
-			'height'      => 80,
-			'width'       => 200,
+			'height'      => 100,
+			'width'       => 300,
 			'flex-height' => true,
 		) );
 	}
