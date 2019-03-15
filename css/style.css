@@ -470,3 +470,23 @@ b, strong {
 #responsive_headline {
   text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.60);
 }
+
+/* mnenu com borda dupla */
+
+
+.modulem {
+border-bottom: solid 10px green;
+font-weight: bold;
+height: auto;
+position: relative;
+margin-bottom: 3px;
+}
+
+.modulem:after {
+content: '';
+border-bottom: solid 5px yellow;
+width: 100%;
+position: relative;
+bottom: -6px;
+left: 0;
+}

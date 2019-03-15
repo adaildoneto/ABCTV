@@ -32,7 +32,7 @@
 	<div class="float-panel" data-top="0" data-scroll="200">
 				<div class="row white">	 <div class="container">
 					<div class="col s1 m1 l1">
-	<a href="#" data-target="mobile-menu" class="sidenav-trigger show-on-large">	<i class="fas fa-bars blue-text"></i></a>
+	<a href="#" data-target="mobile-menu" class="sidenav-trigger show-on-large">	<i class="fas fa-bars black-text"></i></a>
 
 
 					</div>
@@ -48,7 +48,7 @@
 
 <div class="nav-wrapper center-align">
 
-	<a class="logomarca blue-text text-darken-4" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+	<a class="logomarca black" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 			<i class="far fa-newspaper"></i>	<?php bloginfo( 'name' ); ?>
 	</a>
 
@@ -60,12 +60,12 @@
 
 							<div class="col s1 m2 l2 right-align hide-on-small-only">
 
-<a class="waves-effect waves-light btn-flat modal-trigger" href="#modal1">	<i class="fas fa-search blue-text"></i></a>
+<a class="waves-effect waves-light btn-flat modal-trigger" href="#modal1">	<i class="fas fa-search"></i></a>
 
 							</div>
 	</div>		</div>
 		</div>
-	<div class="row blue darken-4 z-depth-2 hide-on-med-and-down esconder pracima">
+	<div class="row modulem black z-depth-2 hide-on-med-and-down esconder pracima">
 		<div class="container ">
 		<div class="col s12 m10 l10">
 			<?php
