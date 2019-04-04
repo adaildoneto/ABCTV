@@ -1,4 +1,4 @@
-
+<div class="" style="margin-bottom: 20px;">
   <a href="<?php the_Permalink()?>" title="<?php the_title();?>" >
         <div class="card transparent horizontal z-depth-0">
 
@@ -13,7 +13,7 @@
                           echo '<span class="chip principalchip cor white-text left">'. esc_html( $categories[0]->name ) . '</span>';
                           }?>
                 </div>
-                <div class="news blue-grey-text text-darken-4">
+                <div class="news2 blue-grey-text text-darken-4">
                   <?php the_title();?>
 
                   </div>
@@ -21,6 +21,13 @@
                                   <?php echo excerpt('30'); ?>
                                   </div>
               </div>
+
             </div>
 </a>
-    <hr class="style-one">
+
+
+</div>
+
+              <div class="divider">
+
+              </div>

@@ -25,7 +25,7 @@
 	<?php wp_head(); ?>
 </head>
 
-<body class="blue-grey lighten-5">
+<body class="white">
 
 		<nav class="nav-extended white" >
 
@@ -47,10 +47,15 @@
 							<?php else : ?>
 
 <div class="nav-wrapper center-align">
-
-	<a class="logomarca black" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-			<i class="far fa-newspaper"></i>	<?php bloginfo( 'name' ); ?>
-	</a>
+<div class="logos">
+	<a class="logomarca" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+				<?php bloginfo( 'name' ); ?>
+		</a>
+</div>
+  <hr class="style-logo">
+<div class="description">
+	<?php bloginfo( 'description' ); ?>
+</div>
 
 </div>
 
@@ -65,14 +70,14 @@
 							</div>
 	</div>		</div>
 		</div>
-	<div class="row modulem black z-depth-2 hide-on-med-and-down esconder pracima">
+	<div class="row grey lighten-4  hide-on-med-and-down esconder">
 		<div class="container ">
 		<div class="col s12 m10 l10">
 			<?php
 										wp_nav_menu( array(
 				'theme_location'    => 'main-menu',
 				'menu_id'           => 'primary-menu',
-				'menu_class' 	    => 'left hide-on-med-and-down principal',
+				'menu_class' 	    => 'left hide-on-med-and-down principal grey-text',
 				'container'				=> 'ul',
 				'container_class'	=>	'',
 				'walker'		    =>	new Materialize_Walker_Nav_Menu(),
