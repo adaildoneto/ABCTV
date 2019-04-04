@@ -10,8 +10,14 @@
 
 get_header(); ?>
 
-<div class="row">
+<div class="container">
 	<div class="row">
+		<header class="page-header">
+			<?php
+				the_archive_title( '<h4 class="page-title">', '</h4>' );
+				the_archive_description( '<div class="taxonomy-description">', '</div>' );
+			?>
+			</header><!-- .page-header -->
 	  <div class="col s12 m8 l8">
 
 	    <?php
@@ -50,7 +56,9 @@ get_header(); ?>
 	  </div>
 
 	</div>
-
+<?php 	echo ('<div class="s12 center-align">');
+				wp_pagination();
+						echo ('</div>');?>
 
 </div>
 
