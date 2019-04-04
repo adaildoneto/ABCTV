@@ -42,6 +42,39 @@ jQuery(document).ready(function ($) {
 
 });
 
+jQuery(document).ready(function ($) {
+  $('.colunas').slick({
+    dots: true,
+    speed: 300,
+    autoplay: true,
+    autoplaySpeed: 9000,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    responsive: [
+
+    {
+    breakpoint: 600,
+    settings: {
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    arrows: false
+    }
+    },
+    {
+    breakpoint: 480,
+    settings: {
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false
+    }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+    ]
+    });
+  });
+
 jQuery(document).ready(function($) {
   $('#post').find('img').addClass('responsive-img');
   $('#politica').find('.cor').addClass('blue darken-4');

@@ -30,6 +30,12 @@ get_header(); ?>
 </div>
 
 
+	<div class="container">
+			<?php include(TEMPLATEPATH.'/mod-colunas.php');?>
+	</div>
+
+
+
 <!-- <div class="row blue-grey darken-4"  style="padding: 20px;">
 	<div class="container">
 		<div class="center-align titulo">
