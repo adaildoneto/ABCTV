@@ -204,10 +204,10 @@ function odin_widgets_init() {
 			'name' => __( 'Main Sidebar', 'odin' ),
 			'id' => 'main-sidebar',
 			'description' => __( 'Site Main Sidebar', 'odin' ),
-			'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-			'after_widget' => '</aside>',
-			'before_title' => '<h3 class="widgettitle widget-title">',
-			'after_title' => '</h3>',
+			'before_widget' => '<div id="%1$s" class="col s12 widget %2$s">',
+			'after_widget' => '</div>',
+			'before_title' => '<h6 class="wtitle">',
+			'after_title' => '</h6><hr class="style-one">',
 		)
 	);
 	register_sidebar(

@@ -300,6 +300,10 @@ h2.titulo-post {
   width: 200px;
 }
 
+.wtitle {
+  font-family: 'Anton', sans-serif;
+}
+
 .news {
     padding: 5px;
     font-family: 'Raleway', sans-serif;
