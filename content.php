@@ -12,7 +12,7 @@
 
 <div class="row grey-blue darken-4" style="margin-top:-150px;">
 			<div class="container">
-				<div id="content" class="col s12 m8 l8 offset-l2 offset-m2 card" role="main" >
+				<div id="content" class="col s12 m8 l8 offset-l2 offset-m1" role="main" >
 
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
