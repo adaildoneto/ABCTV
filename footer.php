@@ -39,10 +39,10 @@
 										<!-- Chamando formulario do Odin -->
 
 								</div>
-								<div class="col l5 m12 s12">
+								<div class="col l4 m12 s12">
 										<?php dynamic_sidebar( 'rodape2' ); ?>
 								</div>
-								<div class="col l3 m12 s12">
+								<div class="col l4 m12 s12">
 										<?php dynamic_sidebar( 'rodape3' ); ?>
 								</div>
 						</div>
