@@ -198,7 +198,7 @@
       h1.titulo-post {
         font-size: 3rem;
         font-weight: 800;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Anton', sans-serif;
       }
       .especial {
           padding-top: 150px;
@@ -213,9 +213,9 @@
 }
 
 .principalchip {
-  font-size: 10px!important;
+  font-size: 12px!important;
   margin: 0 10px!important;
-  height: 15px!important;
+  height: 17px!important;
   line-height: 15px!important;
   padding: 0 10px!important;
 }
@@ -386,7 +386,7 @@ hr.style-one {
   hr.style-logo {
       border: 0;
       height: 4px;
-      width: 300px;
+      width: 250px;
     background: rgba(221,255,0,1);
     background: -moz-linear-gradient(left, rgba(221,255,0,1) 0%, rgba(221,255,0,1) 1%, rgba(252,235,0,1) 14%, rgba(171,7,7,1) 15%, rgba(171,7,7,1) 16%, rgba(214,36,13,1) 32%, rgba(230,242,8,1) 33%, rgba(252,246,78,1) 51%, rgba(31,125,2,1) 51%, rgba(31,125,2,1) 52%, rgba(24,130,12,1) 98%, rgba(24,130,12,1) 100%);
     background: -webkit-gradient(left top, right top, color-stop(0%, rgba(221,255,0,1)), color-stop(1%, rgba(221,255,0,1)), color-stop(14%, rgba(252,235,0,1)), color-stop(15%, rgba(171,7,7,1)), color-stop(16%, rgba(171,7,7,1)), color-stop(32%, rgba(214,36,13,1)), color-stop(33%, rgba(230,242,8,1)), color-stop(51%, rgba(252,246,78,1)), color-stop(51%, rgba(31,125,2,1)), color-stop(52%, rgba(31,125,2,1)), color-stop(98%, rgba(24,130,12,1)), color-stop(100%, rgba(24,130,12,1)));

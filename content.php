@@ -9,17 +9,10 @@
  */
 ?>
 
-<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), '' );?>
-<div class="row row blue-grey darken-2 z-depth-1">
 
-<div class="container intro-container" style="background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 52%,rgba(0,0,0,0.65) 84%,rgba(0,0,0,0.65) 100%), url('<?php echo $image[0]; ?>'); background-position: center; background-size: cover; margin-top: -20px">
-</div>
-
-</div>
-
-<div class="container" style="margin-top:-150px;">
-			<div class="row">
-				<div id="content" class="col s12 m8 l8 offset-l1 card" role="main" >
+<div class="row grey-blue darken-4" style="margin-top:-150px;">
+			<div class="container">
+				<div id="content" class="col s12 m8 l8 offset-l2 offset-m2 card" role="main" >
 
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>

@@ -30,7 +30,7 @@
 		<nav class="nav-extended white" >
 
 	<div class="float-panel" data-top="0" data-scroll="200">
-				<div class="row white">	 <div class="container">
+				<div class="row white">	
 					<div class="col s1 m1 l1">
 	<a href="#" data-target="mobile-menu" class="sidenav-trigger show-on-large">	<i class="fas fa-bars black-text"></i></a>
 
@@ -68,7 +68,7 @@
 <a class="waves-effect waves-light btn-flat modal-trigger" href="#modal1">	<i class="fas fa-search"></i></a>
 
 							</div>
-	</div>		</div>
+		</div>
 		</div>
 	<div class="row grey lighten-4  hide-on-med-and-down esconder">
 		<div class="container ">
