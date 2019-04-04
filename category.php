@@ -11,45 +11,46 @@
 get_header(); ?>
 
 <div class="row">
-		<div id="noticias" class="container">
-			<?php if ( have_posts() ) : ?>
+	<div class="row">
+	  <div class="col s12 m8 l8">
 
-				<header class="page-header">
-				<?php
-					the_archive_title( '<h4 class="page-title">', '</h4>' );
-					the_archive_description( '<div class="taxonomy-description">', '</div>' );
-				?>
-				</header><!-- .page-header -->
-				<?php
-						// Start the Loop.
-						while ( have_posts() ) : the_post();
+	    <?php
 
-						/*
-						 * Include the post format-specific template for the content. If you want to
-						 * use this in a child theme, then include a file called content-___.php
-						 * (where ___ is the post format) and that will be used instead.
-						 */
-						   echo ('<div class="col s12 m6 l3">');
-						get_template_part( 'cardnews', '' );
-							      echo ('</div>');
-						endwhile;
+	      $myargs = array (
+	        'pagination'             => false,
+	        'cat'							   			=> '',
+	        'posts_per_page'         => 10,
+	          'offset'                  => 2,
+	        'ignore_sticky_posts'    => true,
 
-						// Page navigation.
-						echo ('<div class="s12 center-align">');
-				wp_pagination();
-						echo ('</div>');
+	      );
+	      // The Query
+	      $myquery = new WP_Query( $myargs );
 
-					else :
-						// If no content, include the "No posts found" template.
+	      // The Loop
+	      while ( $myquery->have_posts() ) {
 
-						get_template_part( 'content', 'none' );
+	          $myquery->the_post();
 
-				endif;
-			?>
+	          echo ('<div>');
 
-			</div>
+	          get_template_part( 'cardnews', 'hgrande' );
 
-		</div>
+	          echo ('</div>')  ;
+	                wp_reset_postdata();
+
+	        }
+
+	      ?>
+
+	  </div>
+
+	  <div class="col s12 m4 l4">
+	    <?php get_sidebar(); ?>
+	  </div>
+
+	</div>
+
 
 </div>
 
