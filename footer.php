@@ -23,6 +23,18 @@
 						<div class="row">
 
 								<div class="col l4 m12 s12">
+									<div class="nav-wrapper center-align">
+									<div class="logos">
+										<a class="logomarca" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+													<?php bloginfo( 'name' ); ?>
+											</a>
+									</div>
+									  <hr class="style-logo">
+									<div class="description">
+										<?php bloginfo( 'description' ); ?>
+									</div>
+
+									</div>
 										<?php dynamic_sidebar( 'rodape1' ); ?>
 										<!-- Chamando formulario do Odin -->
 
