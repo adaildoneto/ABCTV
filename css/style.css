@@ -242,7 +242,7 @@ p {
 h2.titulo-post {
   font-size: 2rem;
   font-weight: 400;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 ::placeholder {
@@ -314,8 +314,8 @@ h2.titulo-post {
 
 .news2 {
     padding: 15px;
-    font-family: 'Anton', sans-serif;
-    font-weight: 100;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
     font-size: 2.2rem;
     line-height: 2.5rem;
 }
