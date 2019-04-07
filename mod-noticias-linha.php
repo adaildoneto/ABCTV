@@ -1,3 +1,6 @@
+<div class="row">
+  <h6 class="wtitle"> Destaques </h6><hr class="style-one">
+</div>
 
 <div class="row">
   <?php

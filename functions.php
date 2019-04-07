@@ -26,6 +26,7 @@ add_image_size( "quadrado", 80, 80, array ( 'center', 'top' ) );
 add_image_size( "big-quadrado", 320, 200, array ( 'center', 'top' ) );
 add_image_size( "capa", 1080, 500, array ( 'center', 'top' ) );
 add_image_size( "topo", 590, 350, array ( 'center', 'top' ) );
+add_image_size( "toponews", 180, 110, array ( 'center', 'top' ) );
 /**
  * Odin Classes.
  */

@@ -334,6 +334,10 @@ h2.titulo-post {
 
 }
 
+.colunista  {
+  padding: 10px;
+}
+
 .news-h {
     padding: 5px 10px 10px 10px;
     font-family: 'Roboto', sans-serif;
