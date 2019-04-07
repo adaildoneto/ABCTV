@@ -207,8 +207,8 @@ function odin_widgets_init() {
 			'description' => __( 'Site Main Sidebar', 'odin' ),
 			'before_widget' => '<div id="%1$s" class="col s12 widget %2$s">',
 			'after_widget' => '</div>',
-			'before_title' => '<h6 class="wtitle">',
-			'after_title' => '</h6><hr class="style-one">',
+			'before_title' => '<div class="row"><h6 class="wtitle">',
+			'after_title' => '</h6><hr class="style-one"></div>',
 		)
 	);
 	register_sidebar(
@@ -218,8 +218,8 @@ function odin_widgets_init() {
 		'description' => __( 'modweather', 'odin' ),
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget' => '</div>',
-		'before_title' => '<h6 class="wtitle">',
-		'after_title' => '</h6><hr class="style-one">',
+		'before_title' => '<div class="row"><h6 class="wtitle">',
+		'after_title' => '</h6><hr class="style-one"></div>',
 	)
 );
 	register_sidebar(
@@ -229,8 +229,8 @@ function odin_widgets_init() {
 		'description' => __( 'Publicidade', 'odin' ),
 		'before_widget' => '<div id="%1$s" class="col s12 widget %2$s">',
 		'after_widget' => '</div>',
-		'before_title' => '<h6 class="wtitle">',
-		'after_title' => '</h6><hr class="style-one">',
+		'before_title' => '<div class="row"><h6 class="wtitle">',
+		'after_title' => '</h6><hr class="style-one"></div>',
 	)
 );
 register_sidebar(
@@ -240,8 +240,8 @@ array(
 	'description' => __( 'Footer 1', 'odin' ),
 	'before_widget' => '<div id="%1$s" class="col s12 widget %2$s">',
 	'after_widget' => '</div>',
-	'before_title' => '<h6 class="wtitle">',
-	'after_title' => '</h6><hr class="style-one">',
+	'before_title' => '<div class="row"><h6 class="wtitle">',
+	'after_title' => '</h6><hr class="style-one"></div>',
 )
 );
 register_sidebar(
@@ -251,8 +251,8 @@ array(
 	'description' => __( 'Footer 2', 'odin' ),
 	'before_widget' => '<div id="%1$s" class="col s12 widget %2$s">',
 	'after_widget' => '</div>',
-	'before_title' => '<h6 class="wtitle">',
-	'after_title' => '</h6><hr class="style-one">',
+	'before_title' => '<div class="row"><h6 class="wtitle">',
+	'after_title' => '</h6><hr class="style-one"></div>',
 )
 );
 register_sidebar(
@@ -262,8 +262,8 @@ array(
 	'description' => __( 'Footer 3', 'odin' ),
 	'before_widget' => '<div id="%1$s" class="col s12 widget %2$s">',
 	'after_widget' => '</div>',
-	'before_title' => '<h6 class="wtitle">',
-	'after_title' => '</h6><hr class="style-one">',
+	'before_title' => '<div class="row"><h6 class="wtitle">',
+	'after_title' => '</h6><hr class="style-one"></div>',
 )
 );
 register_sidebar(
@@ -273,8 +273,8 @@ array(
 	'description' => __( 'Publicidade Vertical', 'odin' ),
 	'before_widget' => '<div id="%1$s" class="widget %2$s">',
 	'after_widget' => '</div>',
-	'before_title' => '<h6 class="wtitle grey-text text-darken-3">',
-	'after_title' => '</h6><hr class="style-one">',
+	'before_title' => '<div class="row"><h6 class="wtitle grey-text text-darken-3">',
+	'after_title' => '</h6><hr class="style-one"></div>',
 )
 );
 register_sidebar(
@@ -284,8 +284,8 @@ array(
 	'description' => __( 'Video principal', 'odin' ),
 	'before_widget' => '<div id="%1$s" class="widget %2$s">',
 	'after_widget' => '</div>',
-	'before_title' => '<h6 class="wtitle grey-text text-darken-3">',
-	'after_title' => '</h6><hr class="style-one">',
+	'before_title' => '<div class="row"><h6 class="wtitle grey-text text-darken-3">',
+	'after_title' => '</h6><hr class="style-one"></div>',
 )
 );
 register_sidebar(
@@ -295,8 +295,8 @@ array(
 	'description' => __( 'Lista de Videos', 'odin' ),
 	'before_widget' => '<div id="%1$s" class="widget %2$s">',
 	'after_widget' => '</div>',
-	'before_title' => '<h6 class="wtitle grey-text text-darken-3">',
-	'after_title' => '</h6><hr class="style-one">',
+	'before_title' => '<div class="row"><h6 class="wtitle grey-text text-darken-3">',
+	'after_title' => '</h6><hr class="style-one"></div>',
 )
 );
 }
