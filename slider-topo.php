@@ -8,7 +8,7 @@
                             echo '<span class="chip principalchip blue-grey lighten-4 black-text">'. esc_html( $categories[0]->name ) . '</span>';
                             }?>
                 </div>
-                <div class="news2 blue-grey-text text-darken-4">
+                <div class="news3 blue-grey-text text-darken-4">
                   <?php the_title();?>
 
                   </div>

@@ -48,7 +48,7 @@ jQuery(document).ready(function ($) {
     speed: 300,
     autoplay: true,
     autoplaySpeed: 9000,
-    slidesToShow: 3,
+    slidesToShow: 5,
     slidesToScroll: 2,
     responsive: [
 

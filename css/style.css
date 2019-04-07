@@ -316,8 +316,21 @@ h2.titulo-post {
     padding: 15px;
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
+    line-height: 2rem;
+}
+
+.news3 {
+    padding: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 2.3rem;
     line-height: 2.5rem;
+}
+
+.img-coluna {
+  width: 100px;
+  height: 100px;
 }
 
 .news-h {
