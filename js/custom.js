@@ -77,7 +77,6 @@ jQuery(document).ready(function ($) {
 
 jQuery(document).ready(function($) {
   $('#post').find('img').addClass('responsive-img');
-
   $('.wp_pagination').find('ul').addClass('pagination');
   $('.pagination').find('li').addClass('waves-effect');
   $('.current').addClass('btn-flat orange white-text');
@@ -95,9 +94,8 @@ jQuery(document).ready(function($) {
   $(".collapsible").collapsible();
   $("iframe[src*='youtube']").parent().fitVids();
   $("iframe[src*='web.facebook']").parent().fitVids();
-  $("#responsive_headline").fitText(1.2);
-  $(".widget-inner").find('ul').addClass('collection');
-  $(".widget-inner").find('li').addClass('collection-item news2');
+  $("#recent-posts-2").find('ul').addClass('collection');
+  $("#recent-posts-2").find('li').addClass('collection-item news2');
   $('#grid').masonry({
     // use outer width of grid-sizer for columnWidth
     columnWidth: '',
