@@ -95,7 +95,8 @@ jQuery(document).ready(function($) {
   $("iframe[src*='youtube']").parent().fitVids();
   $("iframe[src*='web.facebook']").parent().fitVids();
   $(".rpwe-ul").addClass('collection');
-  $(".rpwe-li").addClass('collection-item news2');
+  $(".rpwe-li").addClass('collection-item');
+  $(".rpwe-title").find('a').addClass('grey-text text-darken-4 news');
   $('#grid').masonry({
     // use outer width of grid-sizer for columnWidth
     columnWidth: '',
