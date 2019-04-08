@@ -13,7 +13,7 @@
                   <?php the_title();?>
 
                   </div>
-
+<?php echo do_shortcode("[widget id="a2a_share_save_widget-3"]"); ?>
               </div>
 
               <div class="card-image">

@@ -18,4 +18,5 @@
             <?php $image =  wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'topo' );?>
       <img class="responsive-img" src="<?php echo $image[0]; ?>" >
 </a>
+<?php echo do_shortcode("[widget id="a2a_share_save_widget-3"]"); ?>
     <hr class="style-one">
