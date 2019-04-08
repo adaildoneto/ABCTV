@@ -26,11 +26,11 @@
 </head>
 
 <body class="white">
-
+<?php if (function_exists ('adinserter')) echo adinserter (1); ?>
 		<nav class="nav-extended white" >
 
 	<div class="float-panel" data-top="0" data-scroll="200">
-				<div class="row white">	
+				<div class="row white">
 					<div class="col s1 m1 l1">
 	<a href="#" data-target="mobile-menu" class="sidenav-trigger show-on-large">	<i class="fas fa-bars black-text"></i></a>
 
@@ -111,3 +111,5 @@
 
 		     </div>
 		   </div>
+
+			 <?php if (function_exists ('adinserter')) echo adinserter (2); ?>
