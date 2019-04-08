@@ -96,7 +96,7 @@ jQuery(document).ready(function($) {
   $("iframe[src*='web.facebook']").parent().fitVids();
   $(".rpwe-ul").addClass('collection');
   $(".rpwe-li").addClass('collection-item');
-  $(".rpwe-title").find('a').addClass('grey-text text-darken-4 news');
+  $(".rpwe-title").find('a').addClass('grey-text text-darken-4 news-recente');
   $('#grid').masonry({
     // use outer width of grid-sizer for columnWidth
     columnWidth: '',
