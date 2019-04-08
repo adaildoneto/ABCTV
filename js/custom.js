@@ -94,8 +94,8 @@ jQuery(document).ready(function($) {
   $(".collapsible").collapsible();
   $("iframe[src*='youtube']").parent().fitVids();
   $("iframe[src*='web.facebook']").parent().fitVids();
-  $("#recent-posts-2").find('ul').addClass('collection');
-  $("#recent-posts-2").find('li').addClass('collection-item news2');
+  $(".rpwe-ul").addClass('collection');
+  $(".rpwe-li").addClass('collection-item news2');
   $('#grid').masonry({
     // use outer width of grid-sizer for columnWidth
     columnWidth: '',
