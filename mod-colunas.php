@@ -79,6 +79,9 @@
 
     </div>
 
+<div class="">
+  	 <?php if (function_exists ('adinserter')) echo adinserter (5); ?>
+</div>
 
 </div>
 </div>

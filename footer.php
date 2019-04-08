@@ -12,10 +12,11 @@
 
 
 <div class="row grey lighten-2" style="margin: 0px;">
+		 <?php if (function_exists ('adinserter')) echo adinserter (9); ?>
 	<footer id="footer" role="contentinfo">
 		<div class="container">
 			<div class="row">
-					
+
 							</div>
 
 

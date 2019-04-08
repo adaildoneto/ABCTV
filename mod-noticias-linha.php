@@ -35,6 +35,4 @@
 
 </div>
 
-<div class="row">
-
-		</div>
+	 <?php if (function_exists ('adinserter')) echo adinserter (4); ?>

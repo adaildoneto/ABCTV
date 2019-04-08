@@ -28,6 +28,7 @@
         }
 
       ?>
+      	 <?php if (function_exists ('adinserter')) echo adinserter (3); ?>
   </div>
 
 <div class="col s12 m6 l6">
