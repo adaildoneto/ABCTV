@@ -8,7 +8,7 @@
               </div>
               <div class="card-stacked">
                 <div class="">
-                                      <?php $categories = get_the_category();
+                            <?php $categories = get_the_category();
                         if ( ! empty( $categories ) ) {
                             echo '<span class="chip principalchip blue-grey lighten-4 black-text">'. esc_html( $categories[0]->name ) . '</span>';
                             }?>
@@ -19,7 +19,7 @@
                   </div>
                   <div class="news-text blue-grey-text text-darken-4 hide-on-med-and-down">
                                   <?php echo excerpt('30'); ?>
-                                  </div>
+                                </div>
               </div>
 
             </div>
