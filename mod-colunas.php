@@ -46,7 +46,7 @@
 
     </div>
     <div class="colunista">
-    <div class="center-align"><img align="center" class="circle  z-depth-1 img-coluna center-align" src="http://calegario.esy.es/wp-content/uploads/2019/04/FREUD-foto-coluna-150x150.jpegf"></div>
+    <div class="center-align"><img align="center" class="circle  z-depth-1 img-coluna center-align" src="http://calegario.esy.es/wp-content/uploads/2019/04/FREUD-foto-coluna-150x150.jpeg"></div>
 
     <div class="row"><a href=""><h4 class=" news2 blue-grey-text text-darken-4 center-align" style="font-size: 1.2rem; font-weight: 800; padding: 5px;">Freud explica</h4></a>
       <h6 class="blue-grey-text text-darken-4 center-align" style="font-size: 0.8rem; margin-top: -15px;">por Freud Antunes</h6>
@@ -55,7 +55,7 @@
     </div>
 
     </div>
-  
+
 
 <div class="colunista">
   	 <?php if (function_exists ('adinserter')) echo adinserter (5); ?>
