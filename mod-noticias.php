@@ -20,7 +20,7 @@
 
           $myquery->the_post();
 
-          if ( $query->current_post == 35 ) {  // first post
+          if ( $query->current_post == 5 ) {  // first post
 
                               if (function_exists ('adinserter')) echo adinserter (7);
 
