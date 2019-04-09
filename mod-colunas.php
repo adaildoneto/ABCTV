@@ -7,79 +7,57 @@
 
 
     <div class="colunista">
-    <div class="center-align"><img align="center" class="circle  z-depth-1 img-coluna center-align" src="https://3dejulhonoticias.com.br/wp-content/uploads/2018/12/47591999_1013389978845318_4001141784347410432_n-e1544499406711.gif"></div>
+    <div class="center-align"><img align="center" class="circle  z-depth-1 img-coluna center-align" src="http://calegario.esy.es/wp-content/uploads/2019/04/FB_IMG_1554598089479-150x150.jpg"></div>
 
-    <div class="row"><a href=""><h4 class=" news2 blue-grey-text text-darken-4 center-align" style="font-size: 1.2rem; font-weight: 800; padding: 5px;">Coluna do Crica</h4></a>
+    <div class="row"><a href=""><h4 class=" news2 blue-grey-text text-darken-4 center-align" style="font-size: 1.2rem; font-weight: 800; padding: 5px;">Calibre .38</h4></a>
+      <h6 class="blue-grey-text text-darken-4 center-align" style="font-size: 0.8rem; margin-top: -15px;">por Archibaldo Antunes</h6></a>
           <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
     </div>
 
     </div>
     <div class="colunista">
-    <div class="center-align"><img align="center" class="circle  z-depth-1 img-coluna center-align" src="https://3dejulhonoticias.com.br/wp-content/uploads/2018/12/47591999_1013389978845318_4001141784347410432_n-e1544499406711.gif"></div>
+    <div class="center-align"><img align="center" class="circle  z-depth-1 img-coluna center-align" src="http://calegario.esy.es/wp-content/uploads/2019/04/Rodrigo-coluna-150x150.jpg"></div>
 
-    <div class="row"><a href=""><h4 class=" news2 blue-grey-text text-darken-4 center-align" style="font-size: 1.2rem; font-weight: 800; padding: 5px;">Coluna do Crica</h4></a>
+    <div class="row"><a href=""><h4 class=" news2 blue-grey-text text-darken-4 center-align" style="font-size: 1.2rem; font-weight: 800; padding: 5px;">De tudo um pouco</h4></a>
+      <h6 class="blue-grey-text text-darken-4 center-align" style="font-size: 0.8rem; margin-top: -15px;">por Rodrigo Fernandes</h6></a>
           <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
     </div>
 
     </div>
     <div class="colunista">
-    <div class="center-align"><img align="center" class="circle  z-depth-1 img-coluna center-align" src="https://3dejulhonoticias.com.br/wp-content/uploads/2018/12/47591999_1013389978845318_4001141784347410432_n-e1544499406711.gif"></div>
-
-    <div class="row"><a href=""><h4 class=" news2 blue-grey-text text-darken-4 center-align" style="font-size: 1.2rem; font-weight: 800; padding: 5px;">Coluna do Crica</h4></a>
+    <div class="center-align"><img align="center" class="circle  z-depth-1 img-coluna center-align" src="http://calegario.esy.es/wp-content/uploads/2019/04/Salomão-Coluna-150x150.jpg"></div>
+        <div class="row"><a href=""><h4 class=" news2 blue-grey-text text-darken-4 center-align" style="font-size: 1.2rem; font-weight: 800; padding: 5px;">Lamparina</h4></a>
+<h6 class="blue-grey-text text-darken-4 center-align" style="font-size: 0.8rem; margin-top: -15px;">por Salomão Matos</h6>
           <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
     </div>
 
     </div>
     <div class="colunista">
-    <div class="center-align"><img align="center" class="circle  z-depth-1 img-coluna center-align" src="https://3dejulhonoticias.com.br/wp-content/uploads/2018/12/47591999_1013389978845318_4001141784347410432_n-e1544499406711.gif"></div>
+    <div class="center-align"><img align="center" class="circle  z-depth-1 img-coluna center-align" src="http://calegario.esy.es/wp-content/uploads/2019/04/kisspng-anonymous-blog-anonymity-computer-icons-avatar-5b6f7c3c4d43f7.9606248715340329563165-150x150.jpg"></div>
 
-    <div class="row"><a href=""><h4 class=" news2 blue-grey-text text-darken-4 center-align" style="font-size: 1.2rem; font-weight: 800; padding: 5px;">Coluna do Crica</h4></a>
+    <div class="row"><a href=""><h4 class=" news2 blue-grey-text text-darken-4 center-align" style="font-size: 1.2rem; font-weight: 800; padding: 5px;">Coluna do Azenha</h4></a>
+      <h6 class="blue-grey-text text-darken-4 center-align" style="font-size: 0.8rem; margin-top: -15px;">por Albert Azenha</h6>
           <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
     </div>
 
     </div>
     <div class="colunista">
-    <div class="center-align"><img align="center" class="circle  z-depth-1 img-coluna center-align" src="https://3dejulhonoticias.com.br/wp-content/uploads/2018/12/47591999_1013389978845318_4001141784347410432_n-e1544499406711.gif"></div>
+    <div class="center-align"><img align="center" class="circle  z-depth-1 img-coluna center-align" src="http://calegario.esy.es/wp-content/uploads/2019/04/FREUD-foto-coluna-150x150.jpegf"></div>
 
-    <div class="row"><a href=""><h4 class=" news2 blue-grey-text text-darken-4 center-align" style="font-size: 1.2rem; font-weight: 800; padding: 5px;">Coluna do Crica</h4></a>
+    <div class="row"><a href=""><h4 class=" news2 blue-grey-text text-darken-4 center-align" style="font-size: 1.2rem; font-weight: 800; padding: 5px;">Freud explica</h4></a>
+      <h6 class="blue-grey-text text-darken-4 center-align" style="font-size: 0.8rem; margin-top: -15px;">por Freud Antunes</h6>
           <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
     </div>
 
     </div>
-    <div class="colunista">
-    <div class="center-align"><img align="center" class="circle  z-depth-1 img-coluna center-align" src="https://3dejulhonoticias.com.br/wp-content/uploads/2018/12/47591999_1013389978845318_4001141784347410432_n-e1544499406711.gif"></div>
+  
 
-    <div class="row"><a href=""><h4 class=" news2 blue-grey-text text-darken-4 center-align" style="font-size: 1.2rem; font-weight: 800; padding: 5px;">Coluna do Crica</h4></a>
-          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-    </div>
-
-    </div>
-    <div class="colunista">
-    <div class="center-align"><img align="center" class="circle  z-depth-1 img-coluna center-align" src="https://3dejulhonoticias.com.br/wp-content/uploads/2018/12/47591999_1013389978845318_4001141784347410432_n-e1544499406711.gif"></div>
-
-    <div class="row"><a href=""><h4 class=" news2 blue-grey-text text-darken-4 center-align" style="font-size: 1.2rem; font-weight: 800; padding: 5px;">Coluna do Crica</h4></a>
-          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-    </div>
-
-    </div>
-    <div class="colunista">
-    <div class="center-align"><img align="center" class="circle  z-depth-1 img-coluna center-align" src="https://3dejulhonoticias.com.br/wp-content/uploads/2018/12/47591999_1013389978845318_4001141784347410432_n-e1544499406711.gif"></div>
-
-    <div class="row"><a href=""><h4 class=" news2 blue-grey-text text-darken-4 center-align" style="font-size: 1.2rem; font-weight: 800; padding: 5px;">Coluna do Crica</h4></a>
-          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-    </div>
-
-    </div>
-
-<div class="">
+<div class="colunista">
   	 <?php if (function_exists ('adinserter')) echo adinserter (5); ?>
 </div>
 
