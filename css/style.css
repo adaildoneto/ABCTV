@@ -58,6 +58,14 @@
         padding-top: 150px;
 
     }
+    .textot {
+      width: 100%;
+    position: relative;
+    }
+    .imgg {
+      width: 100%;
+      position: relative;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 992px) {
@@ -99,6 +107,12 @@
   .especial {
       padding-top: 100px;
 
+  }
+  .textot {
+    width: 50%;
+  }
+  .imgg {
+    width: 50%;
   }
 }
 
@@ -152,6 +166,12 @@
         padding-top: 100px;
 
     }
+    .textot {
+      width: 75%;
+    }
+    .imgg {
+      width: 25%;
+    }
 
 }
 
@@ -203,6 +223,13 @@
       .especial {
           padding-top: 150px;
 
+      }
+
+      .textot {
+        width: 75%;
+      }
+      .imgg {
+        width: 25%;
       }
 
 
