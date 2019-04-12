@@ -1,9 +1,8 @@
 
 
-  <?php $categories = get_the_category();
-      if ( ! empty( $categories ) ) {
-          echo '<span class="chip principalchip blue-grey lighten-4 black-text">'. esc_html( $categories[0]->name ) . '</span>';
-          }?>
+<?php $cabeca = get_post_meta( $post->ID,'cabeca', true );
+      echo '<span class="chip principalchip blue-grey lighten-4 black-text">'.$cabeca. '</span>';
+                  ?>
 
     <a href="<?php the_Permalink()?>" title="<?php the_title();?>" >
       <div class="card white z-depth-0 newscard">
@@ -14,7 +13,16 @@
 
             </div>
         <div class="news grey-text text-darken-4">
-          <?php the_title();?>
+          <?php
+            $tituloPost = get_the_title();
+            $tituloCapa = get_post_meta( $post->ID,'titulo_da_capa', true );
+            if(empty($tituloCapa)){
+               $titulo = $tituloPost;
+            }else{
+              $titulo = $tituloCapa;
+            }
+            echo $titulo;
+            ?>
         </div>
 
       </div>
