@@ -22,18 +22,7 @@ get_header(); ?>
 
 	    <?php
 
-	      $myargs = array (
-	        'pagination'             => false,
-	        'cat'							   			=> '',
-	        'posts_per_page'         => 10,
-	          'offset'                  => 2,
-	        'ignore_sticky_posts'    => true,
-
-	      );
-	      // The Query
-	      $myquery = new WP_Query( $myargs );
-
-	      // The Loop
+	 
 	      while ( $myquery->have_posts() ) {
 
 	          $myquery->the_post();
