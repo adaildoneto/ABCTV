@@ -20,34 +20,20 @@ get_header(); ?>
 			</header><!-- .page-header -->
 	  <div class="col s12 m8 l8">
 
-	    <?php
 
-	      $myargs = array (
-	        'pagination'             => false,
-	        'cat'							   			=> '',
-	        'posts_per_page'         => 10,
-	          'offset'                  => 2,
-	        'ignore_sticky_posts'    => true,
+				 <?php if (have_posts()): while (have_posts()) : the_post();
 
-	      );
-	      // The Query
-	      $myquery = new WP_Query( $myargs );
+				          echo ('<div>');
 
-	      // The Loop
-	      while ( $myquery->have_posts() ) {
+				          get_template_part( 'cardnews', 'hgrande' );
 
-	          $myquery->the_post();
+				          echo ('</div>')  ;
+				                wp_reset_postdata();
 
-	          echo ('<div>');
+												endwhile;endif;
 
-	          get_template_part( 'cardnews', 'hgrande' );
+				      ?>
 
-	          echo ('</div>')  ;
-	                wp_reset_postdata();
-
-	        }
-
-	      ?>
 
 	  </div>
 
