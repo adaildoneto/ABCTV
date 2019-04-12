@@ -50,10 +50,21 @@
                       ?>
 
                     </span></br>
-                    <span class="data-post"><i class="far fa-calendar-alt"></i><?php the_time('d.m.Y');?> </span>
-                    <span class="hora-post"><i class="far fa-hourglass"></i><?php the_time('G:i');?></span></br>
-										<?php echo do_shortcode( '[ssba-buttons]' );
-										?>
+										<div class="row">
+
+											<div class="col s12 m6 l6">
+												<span class="data-post"><i class="far fa-calendar-alt"></i><?php the_time('d.m.Y');?> </span>
+												<span class="hora-post"><i class="far fa-hourglass"></i><?php the_time('G:i');?></span></br>
+
+											</div>
+
+											<div class="col s12 m6 l6">
+												<?php echo do_shortcode( '[ssba-buttons]' );
+												?>
+											</div>
+
+										</div>
+
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
