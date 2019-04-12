@@ -133,9 +133,9 @@
     </div>
 
 
-<div class="colunista">
+
   	 <?php if (function_exists ('adinserter')) echo adinserter (5); ?>
-</div>
+
 
 </div>
 </div>
