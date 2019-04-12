@@ -18,7 +18,16 @@
 
                   </div>
                   <div class="news-h grey-text text-darken-4 espacoh">
-                    <?php the_title();?>
+                    <?php
+                      $tituloPost = get_the_title();
+                      $tituloCapa = get_post_meta( $post->ID,'titulo_da_capa', true );
+                      if(empty($tituloCapa)){
+                         $titulo = $tituloPost;
+                      }else{
+                        $titulo = $tituloCapa;
+                      }
+                      echo $titulo;
+                      ?>
                   </div>
                 </div>
 

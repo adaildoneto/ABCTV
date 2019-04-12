@@ -4,7 +4,16 @@
           <div class="center center-align" style="position: absolute; bottom: 20px; padding-right: 10%; padding-left: 10%;">
             <a href="<?php the_Permalink()?>" title="<?php the_title();?>" >
             <h5 id="responsive_headline" class="white-text" >
-              <b> <?php the_title();?> </b>
+              <b> <?php
+                $tituloPost = get_the_title();
+                $tituloCapa = get_post_meta( $post->ID,'titulo_da_capa', true );
+                if(empty($tituloCapa)){
+                   $titulo = $tituloPost;
+                }else{
+                  $titulo = $tituloCapa;
+                }
+                echo $titulo;
+                ?></b>
             </h5>  </a>
         </div>
 

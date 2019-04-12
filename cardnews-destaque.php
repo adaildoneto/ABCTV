@@ -9,7 +9,16 @@
                   <div class="card-content">
                     <a href="<?php the_Permalink()?>" title="<?php the_title();?>" >
                     <span class="cor z-depth-2 white-text news-destaque" >
-                      <?php the_title();?>
+                      <?php
+                        $tituloPost = get_the_title();
+                        $tituloCapa = get_post_meta( $post->ID,'titulo_da_capa', true );
+                        if(empty($tituloCapa)){
+                           $titulo = $tituloPost;
+                        }else{
+                          $titulo = $tituloCapa;
+                        }
+                        echo $titulo;
+                        ?>
                     </span>  </a>
                   </div>
 

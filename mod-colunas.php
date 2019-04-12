@@ -1,5 +1,5 @@
 <div class="row">
-  <h6 class="wtitle"> Colunisas & Influenciadores </h6><hr class="style-one">
+  <h6 class="wtitle"> Colunistas & Influenciadores </h6><hr class="style-one">
 </div>
 <div class="row">
   <div id="caluna" class="colunas">
