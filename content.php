@@ -39,7 +39,7 @@
 
 
 
-				  <span class=""><i class="far fa-user"></i>
+				  <span class="">
                       <?php
                           $alias = get_post_meta($post->ID,'author_alias',true);
                       if(empty($alias)){
@@ -53,8 +53,8 @@
 										<div class="row">
 
 											<div class="col s12 m6 l6">
-												<span class="data-post"><i class="far fa-calendar-alt"></i><?php the_time('d.m.Y');?> </span>
-												<span class="hora-post"><i class="far fa-hourglass"></i><?php the_time('G:i');?></span></br>
+												<span class="data-post"><?php the_time('d.m.Y');?> </span>
+												<span class="hora-post"><?php the_time('G:i');?></span></br>
 
 											</div>
 
