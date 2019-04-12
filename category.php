@@ -20,12 +20,9 @@ get_header(); ?>
 			</header><!-- .page-header -->
 	  <div class="col s12 m8 l8">
 
-	    <?php
 
-	 
-	      while ( $myquery->have_posts() ) {
 
-	          $myquery->the_post();
+	 <?php if (have_posts()): while (have_posts()) : the_post();
 
 	          echo ('<div>');
 
@@ -34,7 +31,6 @@ get_header(); ?>
 	          echo ('</div>')  ;
 	                wp_reset_postdata();
 
-	        }
 
 	      ?>
 
