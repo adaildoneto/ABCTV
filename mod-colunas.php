@@ -55,7 +55,33 @@
     <div class="center-align"><img align="center" class="circle  z-depth-1 img-coluna center-align" src="http://calegario.esy.es/wp-content/uploads/2019/04/Salomão-Coluna-150x150.jpg"></div>
         <div class="row"><a href=""><h4 class=" news2 blue-grey-text text-darken-4 center-align" style="font-size: 1.2rem; font-weight: 800; padding: 5px;">Lamparina</h4></a>
 <h6 class="blue-grey-text text-darken-4 center-align" style="font-size: 0.8rem; margin-top: -15px;">por Salomão Matos</h6>
-          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<?php
+
+  $myargs = array (
+    'pagination'             => false,
+    'cat'			  		         => array ('18'),
+    'posts_per_page'         => 1,
+    'ignore_sticky_posts'    => true,
+
+  );
+  // The Query
+  $myquery = new WP_Query( $myargs );
+
+  // The Loop
+  while ( $myquery->have_posts() ) {
+
+      $myquery->the_post();
+
+      echo ('<div>');
+
+      get_template_part( 'coluna', '' );
+
+      echo ('</div>')  ;
+            wp_reset_postdata();
+
+    }
+
+  ?>
 
     </div>
 
@@ -65,8 +91,33 @@
 
     <div class="row"><a href=""><h4 class=" news2 blue-grey-text text-darken-4 center-align" style="font-size: 1.2rem; font-weight: 800; padding: 5px;">Coluna do Azenha</h4></a>
       <h6 class="blue-grey-text text-darken-4 center-align" style="font-size: 0.8rem; margin-top: -15px;">por Albert Azenha</h6>
-          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <?php
 
+        $myargs = array (
+          'pagination'             => false,
+          'cat'			  		         => array ('16'),
+          'posts_per_page'         => 1,
+          'ignore_sticky_posts'    => true,
+
+        );
+        // The Query
+        $myquery = new WP_Query( $myargs );
+
+        // The Loop
+        while ( $myquery->have_posts() ) {
+
+            $myquery->the_post();
+
+            echo ('<div>');
+
+            get_template_part( 'coluna', '' );
+
+            echo ('</div>')  ;
+                  wp_reset_postdata();
+
+          }
+
+        ?>
     </div>
 
     </div>
