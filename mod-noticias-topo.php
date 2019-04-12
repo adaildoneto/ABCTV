@@ -4,9 +4,8 @@
 
       $myargs = array (
         'pagination'             => false,
-        'category_name'					=> 'geral, policia, mundo, meio ambiente',
+        'category_name'					=> 'destaque-1',
         'posts_per_page'         => 1,
-        'offset'                  => 2,
         'ignore_sticky_posts'    => true,
 
       );
