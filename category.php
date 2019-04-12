@@ -31,6 +31,7 @@ get_header(); ?>
 	          echo ('</div>')  ;
 	                wp_reset_postdata();
 
+									endwhile;endif;
 
 	      ?>
 
