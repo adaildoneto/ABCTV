@@ -26,7 +26,7 @@
 
             $myquery->the_post();
 
-            echo ('<div>');
+            echo ('<div class="blue-grey-text text-darken-4 center-align">');
 
             get_template_part( 'coluna', '' );
 
@@ -62,7 +62,7 @@
 
             $myquery->the_post();
 
-            echo ('<div>');
+            echo ('<div class="blue-grey-text text-darken-4 center-align">');
 
             get_template_part( 'coluna', '' );
 
@@ -96,7 +96,7 @@
 
       $myquery->the_post();
 
-      echo ('<div>');
+      echo ('<div class="blue-grey-text text-darken-4 center-align">');
 
       get_template_part( 'coluna', '' );
 
@@ -132,7 +132,7 @@
 
             $myquery->the_post();
 
-            echo ('<div>');
+            echo ('<div class="blue-grey-text text-darken-4 center-align">');
 
             get_template_part( 'coluna', '' );
 
@@ -167,7 +167,7 @@
 
             $myquery->the_post();
 
-            echo ('<div>');
+            echo ('<div class="blue-grey-text text-darken-4 center-align">');
 
             get_template_part( 'coluna', '' );
 
