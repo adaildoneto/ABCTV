@@ -82,7 +82,7 @@ jQuery(document).ready(function($) {
   $('.current').addClass('btn-flat orange white-text');
   $('.calendar_wrap').addClass('white-text');
   $('#wp-calendar').addClass('centered');
-    $('.bumpview').addClass('news black-text');
+    $('.bump-view').addClass('news black-text');
   $('#wp-calendar').find('a').addClass('chip orange lighten-4 red-text darken-text-3');
   $(".nav-item-dropdown-button").dropdown({constrainWidth: false, hover: false, coverTrigger:false,});
   $(".side-menu-nav-item-dropdown-button").dropdown({constrainWidth: false, hover: false,});
