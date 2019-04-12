@@ -88,6 +88,8 @@ jQuery(document).ready(function($) {
   $(".sidenav").sidenav();
   $(".parallax").parallax();
   $(".modal").modal();
+  $(".wp-caption").width('auto').height('auto');
+  $(".wp-caption-text").width('auto').height('auto');
   $(".collapsible").collapsible();
   $("iframe[src*='youtube']").parent().fitVids();
   $("iframe[src*='web.facebook']").parent().fitVids();
