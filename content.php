@@ -36,9 +36,9 @@
 				</div>
 				<div>
 					<hr class="style-one"></div><br>
-					
-				
-				
+
+
+
 				  <span class=""><i class="far fa-user"></i>
                       <?php
                           $alias = get_post_meta($post->ID,'author_alias',true);
@@ -52,6 +52,8 @@
                     </span></br>
                     <span class="data-post"><i class="far fa-calendar-alt"></i><?php the_time('d.m.Y');?> </span>
                     <span class="hora-post"><i class="far fa-hourglass"></i><?php the_time('G:i');?></span></br>
+										<?php echo do_shortcode( '[ssba-buttons]' );
+										?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
@@ -62,7 +64,7 @@
 		</div><!-- .entry-summary -->
 	<?php else : ?>
 		<div class="entry-content">
-			
+
 			<?php
 				the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'odin' ) );
 				wp_link_pages( array(
@@ -80,12 +82,10 @@
 			<span class="cat-links"><?php echo __( 'Posted in:', 'odin' ) . ' ' . get_the_category_list( _x( ', ', 'Used between list items, there is a space after the comma.', 'odin' ) ); ?></span>
 		<?php endif; ?>
 		<?php the_tags( '<span class="tag-links">' . __( 'Tagged as:', 'odin' ) . ' ', ', ', '</span>' ); ?>
-		
+
 	</footer>
 </article><!-- #post-## -->
 </div>
 </div>
 
 </div>
-
-		
