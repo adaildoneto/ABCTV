@@ -87,7 +87,7 @@
 
     </div>
     <div class="colunista">
-    <div class="center-align"><img align="center" class="circle  z-depth-1 img-coluna center-align" src="http://diariodoacre.com.br/wp-content/uploads/2019/04/WhatsApp-Image-2019-04-11-at-17.37.21-150x150.jpeg"></div>
+    <div class="center-align"><img align="center" class="circle  z-depth-1 img-coluna center-align" src="http://diariodoacre.com.br/wp-content/uploads/2019/04/WhatsApp-Image-2019-04-11-at-17.37.21-e1555040665973-150x150.jpeg"></div>
 
     <div class="row"><a href=""><h4 class=" news2 blue-grey-text text-darken-4 center-align" style="font-size: 1.2rem; font-weight: 800; padding: 5px;">Coluna do Azenha</h4></a>
       <h6 class="blue-grey-text text-darken-4 center-align" style="font-size: 0.8rem; margin-top: -15px;">por Albert Azenha</h6>
