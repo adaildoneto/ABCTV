@@ -72,7 +72,7 @@
 		</div>
 	<div class="row grey lighten-4  hide-on-med-and-down esconder">
 		<div class="container ">
-		<div class="col s12 m10 l10">
+		<div class="col s12 m12 l12">
 			<?php
 										wp_nav_menu( array(
 				'theme_location'    => 'main-menu',
@@ -84,9 +84,7 @@
 			) );
 			?>
 		</div>
-			<div class="col s12 m2 l2">
-				  <?php if ( dynamic_sidebar('modweather') ) : else : endif; ?>
-			</div>
+			
 
 		 </div>
 	</div>
