@@ -25,7 +25,7 @@
 
         $myargs = array (
           'pagination'             => false,
-          'cat'					          => array ('14'),
+          'cat'			  		         => array ('14'),
           'posts_per_page'         => 1,
           'ignore_sticky_posts'    => true,
 
@@ -38,24 +38,16 @@
 
             $myquery->the_post();
 
-              echo ('<div class="col s12 ">');
-                echo ('<a class="news black-text" href="'.the_Permalink().'" title="'.the_title();.'">');
-              $tituloPost = get_the_title();
-              $tituloCapa = get_post_meta( $post->ID,'titulo_da_capa', true );
-              if(empty($tituloCapa)){
-                 $titulo = $tituloPost;
-              }else{
-                $titulo = $tituloCapa;
-              }
-              echo $titulo;
-                echo ('</a></div>')  ;
+            echo ('<div>');
 
+            get_template_part( 'coluna', '' );
+
+            echo ('</div>')  ;
                   wp_reset_postdata();
 
           }
 
         ?>
-
     </div>
 
     </div>
