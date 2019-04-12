@@ -10,46 +10,55 @@
 
 get_header(); ?>
 
-<div class="row">
-		<div class="container">
-			<?php if ( have_posts() ) : ?>
-
-				<header class="page-header">
-				<?php
-					the_archive_title( '<h4 class="page-title">', '</h4>' );
-					the_archive_description( '<div class="taxonomy-description">', '</div>' );
-				?>
-				</header><!-- .page-header -->
-				<?php
-						// Start the Loop.
-						while ( have_posts() ) : the_post();
-
-						/*
-						 * Include the post format-specific template for the content. If you want to
-						 * use this in a child theme, then include a file called content-___.php
-						 * (where ___ is the post format) and that will be used instead.
-						 */
-						   echo ('<div class="col s12 m6 l3">');
-						get_template_part( 'cardnews', 'destaque' );
-							      echo ('</div>');
-						endwhile;
-
-						// Page navigation.
-						echo ('<div class="s12 center-align">');
-				wp_pagination();
-						echo ('</div>');
-
-					else :
-						// If no content, include the "No posts found" template.
-
-						get_template_part( 'content', 'none' );
-
-				endif;
+<div class="container">
+	<div class="row">
+		<header class="page-header">
+			<?php
+				the_archive_title( '<h4 class="page-title">', '</h4>' );
+				the_archive_description( '<div class="taxonomy-description">', '</div>' );
 			?>
+			</header><!-- .page-header -->
+	  <div class="col s12 m8 l8">
 
-			</div>
+	    <?php
 
-		</div>
+	      $myargs = array (
+	        'pagination'             => false,
+	        'cat'							   			=> '',
+	        'posts_per_page'         => 10,
+	          'offset'                  => 2,
+	        'ignore_sticky_posts'    => true,
+
+	      );
+	      // The Query
+	      $myquery = new WP_Query( $myargs );
+
+	      // The Loop
+	      while ( $myquery->have_posts() ) {
+
+	          $myquery->the_post();
+
+	          echo ('<div>');
+
+	          get_template_part( 'cardnews', 'hgrande' );
+
+	          echo ('</div>')  ;
+	                wp_reset_postdata();
+
+	        }
+
+	      ?>
+
+	  </div>
+
+	  <div class="col s12 m4 l4">
+	    <?php get_sidebar(); ?>
+	  </div>
+
+	</div>
+<?php 	echo ('<div class="s12 center-align">');
+				wp_pagination();
+						echo ('</div>');?>
 
 </div>
 
