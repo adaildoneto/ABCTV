@@ -37,7 +37,7 @@
 
       $myargs = array (
         'pagination'             => false,
-        'category_name'					=> 'saude, geral',
+        'cat'					          => array ('9'),
         'posts_per_page'         => 3,
         'ignore_sticky_posts'    => true,
 
