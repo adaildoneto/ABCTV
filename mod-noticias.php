@@ -6,7 +6,7 @@
 
       $myargs = array (
         'pagination'             => false,
-        'cat'					 => array ('2'),
+        'cat'					 => array (''),
         'posts_per_page'         => 10,
         'ignore_sticky_posts'    => true,
 
