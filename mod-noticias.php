@@ -6,9 +6,8 @@
 
       $myargs = array (
         'pagination'             => false,
-        'cat'							   			=> '',
+        'cat'					 => array ('2'),
         'posts_per_page'         => 10,
-          'offset'                  => 2,
         'ignore_sticky_posts'    => true,
 
       );

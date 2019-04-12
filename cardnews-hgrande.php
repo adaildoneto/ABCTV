@@ -11,10 +11,10 @@
                 <img class="responsive-img" src="<?php echo $image[0]; ?>" >
               </div>
               <div class="card-stacked">
-                <div class=""><?php $categories = get_post_meta($post->ID, ‘cabeca’, true);
-                        if ( ! empty( $categories ) ) {
-                            echo '<span class="chip principalchip blue-grey lighten-4 black-text">'. esc_html( $categories[0]->name ) . '</span>';
-                            }?>
+                <div class="">
+					<?php $cabeca = get_post_meta( $post->ID,'cabeca', true );
+				        echo '<span class="chip principalchip blue-grey lighten-4 black-text">'.$cabeca. '</span>';
+                            ?>
                 </div>
                 <div class="news2 blue-grey-text text-darken-4">
 
@@ -32,7 +32,9 @@
                   </div>
 
                   <div class="news-text blue-grey-text text-darken-4 hide-on-med-and-down">
-                                  <?php echo excerpt('30'); ?>
+					   <?php $subtitulo = get_post_meta( $post->ID,'subtitulo', true );
+						   echo $subtitulo; ?>
+                                
                                 </div>
               </div>
 
