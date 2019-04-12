@@ -17,7 +17,7 @@
                         }else{
                           $titulo = $tituloCapa;
                         }
-                        echo $titulo;
+                        echo $titulo;belowOrigin
                         ?>
                     </span>  </a>
                   </div>
