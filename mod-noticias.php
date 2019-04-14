@@ -6,8 +6,8 @@
 
       $myargs = array (
         'pagination'             => false,
-        'cat'					 => array ('-8,-9, -12,-13,-19,-20,-21,-22'),
-        'posts_per_page'         => 15,
+        'cat'					 => array ('-8,-9,-12,-13,-19,-20,-21,-22'),
+        'posts_per_page'         => 12,
         'ignore_sticky_posts'    => true,
 
       );
