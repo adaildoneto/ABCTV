@@ -183,6 +183,17 @@
     </div>
 
 
+    <div class="colunista">
+    <div class="center-align"><img align="center" class="circle  z-depth-1 img-coluna center-align" src="http://diariodoacre.com.br/wp-content/uploads/2019/04/IMG-20190416-WA0039-150x150.jpg"></div>
+
+    <div class="row"><a href=""><h4 class=" news2 blue-grey-text text-darken-4 center-align" style="font-size: 1.2rem; font-weight: 800; padding: 5px;">Na Balada</h4></a>
+      <h6 class="blue-grey-text text-darken-4 center-align" style="font-size: 0.8rem; margin-top: -15px;">James Pequeno</h6></a>
+    <p class="black-text center-align"> Acompanhe os principais eventos e baladas da cidade. </p>
+
+    </div>
+
+    </div>
+
 
   	 <?php if (function_exists ('adinserter')) echo adinserter (5); ?>
 
