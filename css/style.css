@@ -66,6 +66,22 @@
       width: 100%;
       position: relative;
     }
+
+    .news3 {
+        padding: 15px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 400;
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+    }
+
+    .news2 {
+        padding: 15px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 400;
+        font-size: 1.1rem;
+        line-height: 1.3rem;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 992px) {
@@ -114,6 +130,22 @@
   .imgg {
     width: 50%;
   }
+  .news3 {
+      padding: 15px;
+      font-family: 'Oswald', sans-serif;
+      font-weight: 400;
+      font-size: 1.3rem;
+      line-height: 1.5rem;
+  }
+
+  .news2 {
+      padding: 15px;
+      font-family: 'Oswald', sans-serif;
+      font-weight: 400;
+      font-size: 1.1rem;
+      line-height: 1.3rem;
+  }
+
 }
 
 
@@ -171,6 +203,22 @@
     }
     .imgg {
       width: 25%;
+    }
+
+    .news3 {
+        padding: 15px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 400;
+        font-size: 2.3rem;
+        line-height: 2.5rem;
+    }
+
+    .news2 {
+        padding: 15px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 2rem;
     }
 
 }
@@ -232,6 +280,22 @@
         width: 25%;
       }
 
+      .news3 {
+          padding: 15px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: 400;
+          font-size: 2.3rem;
+          line-height: 2.5rem;
+      }
+
+      .news2 {
+          padding: 15px;
+          font-family: 'Oswald', sans-serif;
+          font-weight: 400;
+          font-size: 1.8rem;
+          line-height: 2rem;
+      }
+
 
 }
 
@@ -244,9 +308,9 @@ p {
 }
 
 .principalchip {
-  font-size: 12px!important;
+  font-size: 15px!important;
   margin: 0 10px!important;
-  height: 17px!important;
+  height: 18px!important;
   line-height: 15px!important;
   padding: 0 10px!important;
 }
@@ -345,22 +409,6 @@ h2.titulo-post {
     font-weight: 400;
     font-size: 1rem;
     line-height: 1.1rem;
-}
-
-.news2 {
-    padding: 15px;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 400;
-    font-size: 1.8rem;
-    line-height: 2rem;
-}
-
-.news3 {
-    padding: 15px;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 400;
-    font-size: 2.3rem;
-    line-height: 2.5rem;
 }
 
 .img-coluna {
