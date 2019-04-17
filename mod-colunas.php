@@ -188,7 +188,7 @@
 
     <div class="row"><a href=""><h4 class=" news2 blue-grey-text text-darken-4 center-align" style="font-size: 1.2rem; font-weight: 800; padding: 5px;">Na Balada</h4></a>
       <h6 class="blue-grey-text text-darken-4 center-align" style="font-size: 0.8rem; margin-top: -15px;">James Pequeno</h6></a>
-    <p class="black-text center-align"> Acompanhe os principais eventos e baladas da cidade. </p>
+    <p class="black-text center-align"> Acompanhe os principais eventos e baladas da cidade. <b><i class="fas fa-exclamation-circle"></i> Vem aí!</b> </p>
 
     </div>
 
