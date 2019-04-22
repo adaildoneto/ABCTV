@@ -80,7 +80,7 @@ jQuery(document).ready(function($) {
   $('.wp_pagination').find('ul').addClass('pagination');
   $('.pagination').find('li').addClass('waves-effect');
   $('.current').addClass('btn-flat orange white-text');
-  $('.calendar_wrap').addClass('white-text');
+  $('.calendar_wrap').addClass('');
   $('#wp-calendar').addClass('centered');
   $('.bump-view').addClass('news black-text collection-item');
   $('.widget_top-posts').find('ul').addClass('collection');
