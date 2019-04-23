@@ -20,13 +20,13 @@ if ( ! isset( $content_width ) ) {
 	$content_width = 600;
 }
 
-add_image_size( "slider", 600, 400, );
-add_image_size( "cardnews", 280, 120, );
-add_image_size( "quadrado", 80, 80, );
-add_image_size( "big-quadrado", 320, 200,);
-add_image_size( "capa", 1080, 500, );
-add_image_size( "topo", 590, 220,  );
-add_image_size( "toponews", 180, 110, );
+add_image_size( "slider", 600, 400  );
+add_image_size( "cardnews", 280, 120 );
+add_image_size( "quadrado", 80, 80 );
+add_image_size( "big-quadrado", 320, 200);
+add_image_size( "capa", 1080, 500 );
+add_image_size( "topo", 590, 220  );
+add_image_size( "toponews", 180, 110 );
 /**
  * Odin Classes.
  */
