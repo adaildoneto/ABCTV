@@ -1,6 +1,6 @@
 
 <div class="row">
-			<?php if ( dynamic_sidebar('bannerDestaque') ) : else : endif; ?>
+			<?php if ( dynamic_sidebar('bdestaque') ) : else : endif; ?>
 		</div>
 
 <div class="row">

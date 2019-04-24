@@ -225,7 +225,7 @@ function odin_widgets_init() {
 register_sidebar(
 array(
 	'name' => __( 'Banner Noticia Destaque', 'odin' ),
-	'id' => 'bannerDestaque',
+	'id' => 'bdestaque',
 	'description' => __( 'Banner com a materia exclusiva', 'odin' ),
 	'before_widget' => '<div id="%1$s" class="col s12 widget %2$s">',
 	'after_widget' => '</div>',
