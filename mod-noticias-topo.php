@@ -1,3 +1,8 @@
+
+<div class="row">
+			<?php if ( dynamic_sidebar('bannerDestaque') ) : else : endif; ?>
+		</div>
+
 <div class="row">
   <div class="col s12 m6 l6">
     <?php

@@ -222,6 +222,17 @@ function odin_widgets_init() {
 		'after_title' => '</h6><hr class="style-one"></div>',
 	)
 );
+register_sidebar(
+array(
+	'name' => __( 'Banner Noticia Destaque', 'odin' ),
+	'id' => 'bannerDestaque',
+	'description' => __( 'Banner com a materia exclusiva', 'odin' ),
+	'before_widget' => '<div id="%1$s" class="col s12 widget %2$s">',
+	'after_widget' => '</div>',
+	'before_title' => '<div class="row"><h6 class="wtitle">',
+	'after_title' => '</h6><hr class="style-one"></div>',
+)
+);
 	register_sidebar(
 	array(
 		'name' => __( 'Publicidade', 'odin' ),
