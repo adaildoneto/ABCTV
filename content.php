@@ -11,7 +11,11 @@
 
 <div class="row">
 		<div class="container">
-				<div id="content" class="col s12 m8 l8 offset-l2 offset-m1" role="main" >
+			<div class="col s12 m2 l2">
+				<?php if (function_exists ('adinserter')) echo adinserter (13); ?>
+
+			</div>
+				<div id="content" class="col s12 m8 l8" role="main" >
 
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -89,9 +93,14 @@
 	<?php endif; ?>
 
 	<footer class="entry-meta">
-	
+
 	</footer>
 </article><!-- #post-## -->
+</div>
+
+<div class="col s12 m2 l2">
+	<?php if (function_exists ('adinserter')) echo adinserter (14); ?>
+
 </div>
 </div>
 
