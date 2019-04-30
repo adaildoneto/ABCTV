@@ -195,7 +195,7 @@
     </div>
 
     <div class="colunista">
-    <div class="center-align"><img align="center" class="circle  z-depth-1 img-coluna center-align" src="https://diariodoacre.com.br/wp-content/uploads/2019/04/WhatsApp-Image-2019-04-29-at-19.59.35-150x150.jpg"></div>
+    <div class="center-align"><img align="center" class="circle  z-depth-1 img-coluna center-align" src="https://diariodoacre.com.br/wp-content/uploads/2019/04/WhatsApp-Image-2019-04-29-at-19.59.35-150x150.jpeg"></div>
 
     <div class="row"><a href=""><h4 class=" news2 blue-grey-text text-darken-4 center-align" style="font-size: 1.2rem; font-weight: 800; padding: 5px;">Você sabia?</h4></a>
       <h6 class="blue-grey-text text-darken-4 center-align" style="font-size: 0.8rem; margin-top: -15px;">Anderson Siqueira</h6></a>
