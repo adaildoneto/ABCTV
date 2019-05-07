@@ -1,6 +1,6 @@
 
   <a href="<?php the_Permalink()?>" title="<?php the_title();?>" >
-        <div class="card transparent horizontal z-depth-0">
+        <div class="horizontal z-depth-0">
               <div class="card-stacked">
                 <div class="">
                   <?php $cabeca = get_post_meta( $post->ID,'cabeca', true );
