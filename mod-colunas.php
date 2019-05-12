@@ -232,7 +232,7 @@
     </div>
 
     <div class="colunista">
-    <div class="center-align"><img align="center" class="circle  z-depth-1 img-coluna center-align" src="https://www.diariodoacre.com.br/wp-content/uploads/2019/05/WhatsApp-Image-2019-05-12-at-08.09.36-150x150.jpg"></div>
+    <div class="center-align"><img align="center" class="circle  z-depth-1 img-coluna center-align" src="https://www.diariodoacre.com.br/wp-content/uploads/2019/05/WhatsApp-Image-2019-05-12-at-08.09.36-150x150.jpeg"></div>
 
     <div class="row"><a href=""><h4 class=" news2 blue-grey-text text-darken-4 center-align" style="font-size: 1.2rem; font-weight: 800; padding: 5px;">Dra G</h4></a>
       <h6 class="blue-grey-text text-darken-4 center-align" style="font-size: 0.8rem; margin-top: -15px;">Quando o assunto é sexo:</br>NEM PONTO NEM VÍRGULA</h6></a>
