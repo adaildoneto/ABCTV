@@ -231,6 +231,43 @@
 
     </div>
 
+    <div class="colunista">
+    <div class="center-align"><img align="center" class="circle  z-depth-1 img-coluna center-align" src="https://diariodoacre.com.br/wp-content/uploads/2019/05/3f73fe47b9d62aec1151e93dd67d6e59-150x150.jpeg"></div>
+
+    <div class="row"><a href=""><h4 class=" news2 blue-grey-text text-darken-4 center-align" style="font-size: 1.2rem; font-weight: 800; padding: 5px;">Doutora Gê</h4></a>
+      <h6 class="blue-grey-text text-darken-4 center-align" style="font-size: 0.8rem; margin-top: -15px;">Gê para os íntimos</h6></a>
+      <?php
+
+        $myargs = array (
+          'pagination'             => false,
+          'cat'			  		         => array ('132'),
+          'posts_per_page'         => 1,
+          'ignore_sticky_posts'    => true,
+
+        );
+        // The Query
+        $myquery = new WP_Query( $myargs );
+
+        // The Loop
+        while ( $myquery->have_posts() ) {
+
+            $myquery->the_post();
+
+            echo ('<div class="blue-grey-text text-darken-4 center-align">');
+
+            get_template_part( 'coluna', '' );
+
+            echo ('</div>')  ;
+                  wp_reset_postdata();
+
+          }
+
+        ?>
+
+    </div>
+
+    </div>
+
 
   	 <?php if (function_exists ('adinserter')) echo adinserter (5); ?>
 
