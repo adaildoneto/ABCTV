@@ -76,7 +76,7 @@
 
     </div>
     <div class="colunista">
-    <div class="center-align"><img align="center" class="circle  z-depth-1 img-coluna center-align" src="https://diariodoacre.com.br/wp-content/uploads/2019/04/Salomão-Coluna-150x150.jpg"></div>
+    <div class="center-align"><img align="center" class="circle  z-depth-1 img-coluna center-align" src="https://i3.wp.com/diariodoacre.com.br/wp-content/uploads/2019/05/Salom%C3%A3o-Coluna-150x150.jpg"></div>
         <div class="row"><a href="http://diariodoacre.com.br/category/lamparina/"><h4 class=" news2 blue-grey-text text-darken-4 center-align" style="font-size: 1.2rem; font-weight: 800; padding: 5px;">Lamparina</h4></a>
 <h6 class="blue-grey-text text-darken-4 center-align" style="font-size: 0.8rem; margin-top: -15px;">Salomão Matos</h6>
 <?php
