@@ -15,7 +15,7 @@
 
 get_header(); ?>
 
-<div id="noticias" class="row" style="margin-top: -10px; padding-top: 10px;">
+<div id="noticias" class="row" style="margin-top: -10px;">
 	<div class="container">
 			<?php include(TEMPLATEPATH.'/mod-noticias-topo.php');?>
 
