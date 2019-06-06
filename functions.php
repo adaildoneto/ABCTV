@@ -25,7 +25,7 @@ add_image_size( "cardnews", 280, 120,true);
 add_image_size( "quadrado", 80, 80, true);
 add_image_size( "big-quadrado", 320, 200, true);
 add_image_size( "capa", 1080, 500, true);
-add_image_size( "topo", 590, 220, true);
+add_image_size( "topo", 590, 320, true);
 add_image_size( "toponews", 180, 110, true);
 /**
  * Odin Classes.
