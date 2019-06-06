@@ -18,21 +18,16 @@ get_header(); ?>
 <div id="noticias" class="row" style="margin-top: -10px; padding-top: 10px;">
 	<div class="container">
 			<?php include(TEMPLATEPATH.'/mod-noticias-topo.php');?>
-	</div>
-
-</div>
-
-<div  id="noticias"  class="row">
-	<div class="container">
-			<?php include(TEMPLATEPATH.'/mod-noticias-linha.php');?>
-	</div>
-
-</div>
 
 
-	<div class="container">
+			<div  id="noticias"  class="row">
+				<?php include(TEMPLATEPATH.'/mod-noticias-linha.php');?>
+			</div>
+
+
+
 			<?php include(TEMPLATEPATH.'/mod-colunas.php');?>
-	</div>
+
 
 
 
@@ -57,13 +52,12 @@ get_header(); ?>
 
 </div> -->
 <div  id="noticias" class="row">
-	<div class="container">
-			<?php include(TEMPLATEPATH.'/mod-noticias.php');?>
-	</div>
+				<?php include(TEMPLATEPATH.'/mod-noticias.php');?>
+</div>
 
 </div>
 
-
+</div>
 
 <?php
 get_footer();
