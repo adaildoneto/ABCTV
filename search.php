@@ -36,7 +36,7 @@ get_header(); ?>
 				                wp_reset_postdata();
 				              }
 				        }
-
+							endwhile;
 					endif;
 				?>
 
