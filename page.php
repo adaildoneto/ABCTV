@@ -12,6 +12,8 @@
 
 get_header(); ?>
 
+<div class="container">
+
 	<main id="content" class="<?php echo odin_classes_page_full(); ?>" tabindex="-1" role="main">
 
 			<?php
@@ -29,6 +31,9 @@ get_header(); ?>
 			?>
 
 	</main><!-- #main -->
+
+</div>
+
 
 <?php
 get_footer();
