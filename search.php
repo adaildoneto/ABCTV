@@ -16,35 +16,37 @@ get_header(); ?>
 						<h4 class="page-title"><?php printf( __( 'Search Results for: %s', 'odin' ), get_search_query() ); ?></h4>
 					</header><!-- .page-header -->
 
-						<?php
-							// Start the Loop.
-							while ( $myquery->have_posts() ) {
 
-				          $myquery->the_post();
+						 <?php if (have_posts()): while (have_posts()) : the_post();
 
-				          if ( $myquery->current_post == 5 ) {  // first post
+						          echo ('<div>');
 
-				                              if (function_exists ('adinserter')) echo adinserter (7);
+						          get_template_part( 'cardnews', 'hgrande' );
 
-				                    } else {
+						          echo ('</div>')  ;
+						                wp_reset_postdata();
 
-				          echo ('<div>');
+														endwhile;endif;
 
-				          get_template_part( 'cardnews', 'hgrande' );
+						      ?>
 
-				          echo ('</div>')  ;
-				                wp_reset_postdata();
-				              }
-				        }
-							endwhile;
-					endif;
-				?>
+						  </div>
+
+						  <div class="col s12 m4 l4">
+						    <?php get_sidebar(); ?>
+						  </div>
+
+						</div>
+					<?php 	echo ('<div class="s12 center-align">');
+									wp_pagination();
+											echo ('</div>');?>
+
+
+
 
 		</div><!-- #main -->
 
-	</div>
 
-</div>
 
 
 <?php
