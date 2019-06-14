@@ -9,7 +9,7 @@
 get_header(); ?>
 <div class="container">
 	<div class="row">
-		<div id="content" class="col s12 l8 offset-l2" tabindex="-1" role="main">
+		<div id="content" class="col s12 m8 l8" tabindex="-1" role="main">
 				<?php if ( have_posts() ) : ?>
 
 					<header class="page-header">
