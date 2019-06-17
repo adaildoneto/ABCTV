@@ -37,9 +37,9 @@
 
         >
 
-    </div> -->
-
     </div>
+
+    </div>-->
     <div class="colunista">
     <div class="center-align"><img align="center" class="circle  z-depth-1 img-coluna center-align" src="https://diariodoacre.com.br/wp-content/uploads/2019/04/Rodrigo-coluna-1-150x150.jpg"></div>
 
