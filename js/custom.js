@@ -81,7 +81,7 @@ jQuery(document).ready(function ($) {
       arrows: false,
       speed: 300,
       autoplay: true,
-      autoplaySpeed: 9000,
+      autoplaySpeed: 1000,
       slidesToShow: 3,
       slidesToScroll: 2,
       vertical: true,

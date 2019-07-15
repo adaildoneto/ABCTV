@@ -45,7 +45,14 @@
 								</div>
 								<div class="col l4 m12 s12">
 									<div class="abctvprograma">
-											<?php dynamic_sidebar( 'rodape3' ); ?>
+									<div><img src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-01.png" alt=""></div>
+										<div><img src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-02.png" alt=""></div>
+										<div><img src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-03.png" alt=""></div>
+										<div><img src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-04.png" alt=""></div>
+										<div><img src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-05.png" alt=""></div>
+											<div><img src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-06.png" alt=""></div>
+											<div><img src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-07.png" alt=""></div>
+												<div><img src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-08.png" alt=""></div>
 									</div>
 
 								</div>
