@@ -44,6 +44,7 @@
 										<?php dynamic_sidebar( 'rodape2' ); ?>
 								</div>
 								<div class="col l4 m12 s12">
+									<div class="row"><h6 class="wtitle grey-text text-darken-3">Programação ABCTV</h6><hr class="style-one"></div>
 									<div class="abctvprograma">
 									<div><img class="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-01.png" alt=""></div>
 										<div><img class="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-02.png" alt=""></div>

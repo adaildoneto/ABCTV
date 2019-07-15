@@ -79,9 +79,9 @@ jQuery(document).ready(function ($) {
     $('.abctvprograma').slick({
       dots: false,
       arrows: false,
-      speed: 300,
+      speed: 500,
       autoplay: true,
-      autoplaySpeed: 1000,
+      autoplaySpeed: 9000,
       slidesToShow: 3,
       slidesToScroll: 2,
       vertical: true,
