@@ -45,14 +45,29 @@
 								</div>
 								<div class="col l4 m12 s12">
 									<div class="abctvprograma">
-									<div><img src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-01.png" alt=""></div>
-										<div><img src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-02.png" alt=""></div>
-										<div><img src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-03.png" alt=""></div>
-										<div><img src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-04.png" alt=""></div>
-										<div><img src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-05.png" alt=""></div>
-											<div><img src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-06.png" alt=""></div>
-											<div><img src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-07.png" alt=""></div>
-												<div><img src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-08.png" alt=""></div>
+									<div><img class="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-01.png" alt=""></div>
+										<div><img class="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-02.png" alt=""></div>
+										<div><img class="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-03.png" alt=""></div>
+										<div><img class="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-04.png" alt=""></div>
+										<div><img class="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-05.png" alt=""></div>
+											<div><img class="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-06.png" alt=""></div>
+											<div><img class="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-07.png" alt=""></div>
+											<div><imgclass="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-08.png" alt=""></div>
+											<div><img class="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-09.png" alt=""></div>
+												<div><img class="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-10.png" alt=""></div>
+												<div><img class="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-11.png" alt=""></div>
+												<div><img class="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-12.png" alt=""></div>
+												<div><img class="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-13.png" alt=""></div>
+													<div><img class="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-14.png" alt=""></div>
+													<div><img class="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-15.png" alt=""></div>
+													<div><imgclass="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-16.png" alt=""></div>
+													<div><img class="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-17.png" alt=""></div>
+														<div><img class="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-18.png" alt=""></div>
+														<div><img class="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-19.png" alt=""></div>
+														<div><img class="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-20.png" alt=""></div>
+														<div><img class="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-21.png" alt=""></div>
+															<div><img class="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-22.png" alt=""></div>
+
 									</div>
 
 								</div>
