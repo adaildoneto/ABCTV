@@ -44,7 +44,10 @@
 										<?php dynamic_sidebar( 'rodape2' ); ?>
 								</div>
 								<div class="col l4 m12 s12">
-										<?php dynamic_sidebar( 'rodape3' ); ?>
+									<div class="abctvprograma">
+											<?php dynamic_sidebar( 'rodape3' ); ?>
+									</div>
+
 								</div>
 						</div>
 

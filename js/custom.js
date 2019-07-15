@@ -75,6 +75,18 @@ jQuery(document).ready(function ($) {
     });
   });
 
+  jQuery(document).ready(function ($) {
+    $('.abctvprograma').slick({
+      dots: false,
+      speed: 300,
+      autoplay: true,
+      autoplaySpeed: 9000,
+      slidesToShow: 5,
+      slidesToScroll: 2,
+      vertical: true,
+        });
+    });
+
 jQuery(document).ready(function($) {
   $('#post').find('img').addClass('responsive-img');
   $('.wp_pagination').find('ul').addClass('pagination');
