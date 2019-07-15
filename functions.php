@@ -271,10 +271,10 @@ array(
 	'name' => __( 'Rodape 3', 'odin' ),
 	'id' => 'rodape3',
 	'description' => __( 'Footer 3', 'odin' ),
-	'before_widget' => '<div id="%1$s" class="col s12 widget %2$s">',
+	'before_widget' => '<div>',
 	'after_widget' => '</div>',
-	'before_title' => '<div class="row"><h6 class="wtitle">',
-	'after_title' => '</h6><hr class="style-one"></div>',
+	'before_title' => '',
+	'after_title' => '',
 )
 );
 register_sidebar(

@@ -78,10 +78,11 @@ jQuery(document).ready(function ($) {
   jQuery(document).ready(function ($) {
     $('.abctvprograma').slick({
       dots: false,
+      arrows: false,
       speed: 300,
       autoplay: true,
       autoplaySpeed: 9000,
-      slidesToShow: 5,
+      slidesToShow: 3,
       slidesToScroll: 2,
       vertical: true,
         });
