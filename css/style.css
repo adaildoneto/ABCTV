@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Anton|Oswald:500|Raleway');
+/* @import url('https://fonts.googleapis.com/css?family=Anton|Oswald:500|Raleway'); */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
 /* Smartphones (portrait and landscape) ----------- */
 @media (min-width : 320px) and (max-width: 480px){
 /* Styles */
