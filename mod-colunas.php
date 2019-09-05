@@ -111,16 +111,16 @@
     </div>
 
     </div>
-  <!-- <div class="colunista">
-    <div class="center-align"><img align="center" class="circle  z-depth-1 img-coluna center-align" src="https://diariodoacre.com.br/wp-content/uploads/2019/04/FREUD-foto-coluna-150x150.jpeg"></div>
+  <div class="colunista">
+    <div class="center-align"><img align="center" class="circle  z-depth-1 img-coluna center-align" src="https://diariodoacre.com.br/wp-content/uploads/2019/09/WhatsApp-Image-2019-09-04-at-18.00.48-150x150.jpeg"></div>
 
-    <div class="row"><a href="http://diariodoacre.com.br/category/freud-antunes/"><h4 class=" news2 blue-grey-text text-darken-4 center-align" style="font-size: 1.2rem; font-weight: 800; padding: 5px;">Freud explica</h4></a>
-      <h6 class="blue-grey-text text-darken-4 center-align" style="font-size: 0.8rem; margin-top: -15px;">Freud Antunes</h6>
-      <php
+    <div class="row"><a href="https://diariodoacre.com.br/category/saia-da-rotina/"><h4 class=" news2 blue-grey-text text-darken-4 center-align" style="font-size: 1.2rem; font-weight: 800; padding: 5px;">Freud explica</h4></a>
+      <h6 class="blue-grey-text text-darken-4 center-align" style="font-size: 0.8rem; margin-top: -15px;">Lamlid Nobre</h6>
+      <?php
 
         $myargs = array (
           'pagination'             => false,
-          'cat'			  		         => array ('17'),
+          'cat'			  		         => array ('580'),
           'posts_per_page'         => 1,
           'ignore_sticky_posts'    => true,
 
@@ -146,7 +146,7 @@
 
     </div>
 
-  </div> -->
+  </div>
 
     <div class="colunista">
     <div class="center-align"><img align="center" class="circle  z-depth-1 img-coluna center-align" src="https://diariodoacre.com.br/wp-content/uploads/2019/04/WhatsApp-Image-2019-04-29-at-19.59.35-150x150.jpeg"></div>
