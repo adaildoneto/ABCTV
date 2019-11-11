@@ -44,7 +44,7 @@
     <div class="center-align"><img align="center" class="circle  z-depth-1 img-coluna center-align" src="https://diariodoacre.com.br/wp-content/uploads/2019/11/WhatsApp-Image-2019-11-08-at-12.32.37-150x150.jpeg"></div>
 
     <div class="row"><a href="http://diariodoacre.com.br/category/retrato-politico/"><h4 class=" news2 blue-grey-text text-darken-4 center-align" style="font-size: 1.2rem; font-weight: 800; padding: 5px;">Retrato Político</h4></a>
-      <h6 class="blue-grey-text text-darken-4 center-align" style="font-size: 0.8rem; margin-top: -15px;">Da Redação</h6></a>
+      <h6 class="blue-grey-text text-darken-4 center-align" style="font-size: 0.8rem; margin-top: -15px;">Rodrigo Fernandes</h6></a>
       <?php
 
         $myargs = array (
