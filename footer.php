@@ -36,6 +36,7 @@
 									</div>
 
 									</div>
+										<div class="col l4 m12 s12">
 										<?php dynamic_sidebar( 'rodape1' ); ?>
 										<!-- Chamando formulario do Odin -->
 
