@@ -44,34 +44,7 @@
 										<?php dynamic_sidebar( 'rodape2' ); ?>
 								</div>
 								<div class="col l4 m12 s12">
-									<div class="row"><h6 class="wtitle grey-text text-darken-3">Programação ABCTV</h6><hr class="style-one"></div>
-									<div class="abctvprograma">
-									<div><img class="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-01.png" alt=""></div>
-										<div><img class="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-02.png" alt=""></div>
-										<div><img class="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-03.png" alt=""></div>
-										<div><img class="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-04.png" alt=""></div>
-										<div><img class="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-05.png" alt=""></div>
-											<div><img class="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-06.png" alt=""></div>
-											<div><img class="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-07.png" alt=""></div>
-											<div><imgclass="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-08.png" alt=""></div>
-											<div><img class="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-09.png" alt=""></div>
-												<div><img class="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-10.png" alt=""></div>
-												<div><img class="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-11.png" alt=""></div>
-												<div><img class="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-12.png" alt=""></div>
-												<div><img class="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-13.png" alt=""></div>
-													<div><img class="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-14.png" alt=""></div>
-													<div><img class="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-15.png" alt=""></div>
-													<div><imgclass="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-16.png" alt=""></div>
-													<div><img class="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-17.png" alt=""></div>
-														<div><img class="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-18.png" alt=""></div>
-														<div><img class="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-19.png" alt=""></div>
-														<div><img class="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-20.png" alt=""></div>
-														<div><img class="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-21.png" alt=""></div>
-															<div><img class="responsive-img" src="https://i2.wp.com/diariodoacre.com.br/wp-content/uploads/2019/07/calegario-22.png" alt=""></div>
-
-									</div>
-
-								</div>
+								<?php dynamic_sidebar( 'rodape3' ); ?>
 						</div>
 
 			<p class="center-align">&copy; <?php echo date( 'Y' ); ?> <a href="<?php echo esc_url( home_url() ); ?>"><?php bloginfo( 'name' ); ?></a> - <?php _e( 'All rights reserved', 'odin' ); ?> | <?php echo sprintf( __( 'Powered by the <a href="%s" rel="nofollow" target="_blank">Odin</a> forces and <a href="%s" rel="nofollow" target="_blank">WordPress</a>.', 'odin' ), 'http://wpod.in/', 'http://wordpress.org/' ); ?></p>
